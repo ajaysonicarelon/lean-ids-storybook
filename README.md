@@ -22,7 +22,7 @@ This repository contains the built Storybook for Lean IDS, featuring:
 
 This Storybook is automatically deployed to Netlify on every push to the `main` branch.
 
-**Live URL:** [Will be added after deployment]
+**Live URL:** (https://leanids.netlify.app/)
 
 ## 📦 Components
 
