@@ -1,5 +1,6 @@
-import{j as n}from"./jsx-runtime-DSvmvvsx.js";import{useMDXComponents as o}from"./index-DL7Mpk60.js";import{M as t}from"./index-CLb1lfHT.js";import"./index-B0WjJBI_.js";import"./_commonjsHelpers-CqkleIqs.js";import"./iframe-D-wTpLmT.js";import"./index-B2UzP9c-.js";import"./index-DgH-xKnr.js";import"./index-DrFu-skq.js";function s(r){const e={a:"a",br:"br",code:"code",h1:"h1",h2:"h2",h3:"h3",h4:"h4",hr:"hr",li:"li",p:"p",pre:"pre",strong:"strong",ul:"ul",...o(),...r.components};return n.jsxs(n.Fragment,{children:[n.jsx(t,{title:"1. Getting Started/Angular"}),`
-`,n.jsx(e.h1,{id:"using-lean-ids-in-angular",children:"Using Lean IDS in Angular"}),`
+import{j as n}from"./jsx-runtime-DSvmvvsx.js";import{useMDXComponents as o}from"./index-DL7Mpk60.js";import{M as t}from"./index-j4FT58Mq.js";import"./index-B0WjJBI_.js";import"./_commonjsHelpers-CqkleIqs.js";import"./iframe-DyoEv3Sd.js";import"./index-B2UzP9c-.js";import"./index-DgH-xKnr.js";import"./index-DrFu-skq.js";function s(r){const e={a:"a",br:"br",code:"code",h1:"h1",h2:"h2",h3:"h3",h4:"h4",hr:"hr",li:"li",p:"p",pre:"pre",strong:"strong",ul:"ul",...o(),...r.components};return n.jsxs(n.Fragment,{children:[n.jsx(t,{title:"Getting Started/Angular"}),`
+`,n.jsx(e.h1,{id:"getting-started",children:"Getting Started"}),`
+`,n.jsx(e.h2,{id:"using-lean-ids-in-angular",children:"Using Lean IDS in Angular"}),`
 `,n.jsx(e.h2,{id:"-overview",children:"� Overview"}),`
 `,n.jsx(e.p,{children:"This guide shows Angular developers how to use the Lean IDS design system in their projects. The design system provides design tokens and component implementations for Angular."}),`
 `,n.jsx(e.hr,{}),`
