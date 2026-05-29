@@ -1,4 +1,4 @@
-import{j as n}from"./jsx-runtime-DSvmvvsx.js";import{useMDXComponents as r}from"./index-DL7Mpk60.js";import{M as l}from"./index-j4FT58Mq.js";import"./index-B0WjJBI_.js";import"./_commonjsHelpers-CqkleIqs.js";import"./iframe-DyoEv3Sd.js";import"./index-B2UzP9c-.js";import"./index-DgH-xKnr.js";import"./index-DrFu-skq.js";function i(s){const e={code:"code",h1:"h1",h2:"h2",h3:"h3",hr:"hr",li:"li",p:"p",pre:"pre",strong:"strong",ul:"ul",...r(),...s.components};return n.jsxs(n.Fragment,{children:[n.jsx(l,{title:"About/Introduction"}),`
+import{j as n}from"./jsx-runtime-DSvmvvsx.js";import{useMDXComponents as r}from"./index-DL7Mpk60.js";import{M as l}from"./index-Cn65EFGR.js";import"./index-B0WjJBI_.js";import"./_commonjsHelpers-CqkleIqs.js";import"./iframe-CCq8Yjux.js";import"./index-Clv5cdFl.js";import"./index-B2UzP9c-.js";import"./index-DgH-xKnr.js";import"./index-DrFu-skq.js";function i(s){const e={code:"code",h1:"h1",h2:"h2",h3:"h3",hr:"hr",li:"li",p:"p",pre:"pre",strong:"strong",ul:"ul",...r(),...s.components};return n.jsxs(n.Fragment,{children:[n.jsx(l,{title:"About/Introduction"}),`
 `,n.jsx(e.h1,{id:"lean-ids---internal-design-system",children:"Lean IDS - Internal Design System"}),`
 `,n.jsxs(e.p,{children:["Welcome to ",n.jsx(e.strong,{children:"Lean IDS"}),", a comprehensive design system built for Carelon and Elevance Health applications. This system provides a unified set of components, design tokens, and guidelines to create consistent, accessible, and beautiful user experiences."]}),`
 `,n.jsx(e.hr,{}),`
@@ -231,4 +231,4 @@ export class AppComponent {}
 `,n.jsx(e.li,{children:"Dark mode support"}),`
 `]}),`
 `,n.jsx(e.hr,{}),`
-`,n.jsx(e.p,{children:n.jsx(e.strong,{children:"Built with ❤️ for better healthcare experiences"})})]})}function m(s={}){const{wrapper:e}={...r(),...s.components};return e?n.jsx(e,{...s,children:n.jsx(i,{...s})}):i(s)}export{m as default};
+`,n.jsx(e.p,{children:n.jsx(e.strong,{children:"Built with ❤️ for better healthcare experiences"})})]})}function u(s={}){const{wrapper:e}={...r(),...s.components};return e?n.jsx(e,{...s,children:n.jsx(i,{...s})}):i(s)}export{u as default};

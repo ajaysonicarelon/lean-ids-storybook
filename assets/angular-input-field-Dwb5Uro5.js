@@ -1,4 +1,4 @@
-import{j as n}from"./jsx-runtime-DSvmvvsx.js";import{useMDXComponents as l}from"./index-DL7Mpk60.js";import{M as s}from"./index-j4FT58Mq.js";import"./index-B0WjJBI_.js";import"./_commonjsHelpers-CqkleIqs.js";import"./iframe-DyoEv3Sd.js";import"./index-B2UzP9c-.js";import"./index-DgH-xKnr.js";import"./index-DrFu-skq.js";function i(r){const e={code:"code",h1:"h1",h2:"h2",h3:"h3",hr:"hr",li:"li",ol:"ol",p:"p",pre:"pre",strong:"strong",ul:"ul",...l(),...r.components};return n.jsxs(n.Fragment,{children:[n.jsx(s,{title:"Components/InputField/Angular Implementation"}),`
+import{j as n}from"./jsx-runtime-DSvmvvsx.js";import{useMDXComponents as l}from"./index-DL7Mpk60.js";import{M as s}from"./index-Cn65EFGR.js";import"./index-B0WjJBI_.js";import"./_commonjsHelpers-CqkleIqs.js";import"./iframe-CCq8Yjux.js";import"./index-Clv5cdFl.js";import"./index-B2UzP9c-.js";import"./index-DgH-xKnr.js";import"./index-DrFu-skq.js";function i(r){const e={code:"code",h1:"h1",h2:"h2",h3:"h3",hr:"hr",li:"li",ol:"ol",p:"p",pre:"pre",strong:"strong",ul:"ul",...l(),...r.components};return n.jsxs(n.Fragment,{children:[n.jsx(s,{title:"Components/InputField/Angular Implementation"}),`
 `,n.jsx(e.h1,{id:"inputfield---angular-implementation",children:"InputField - Angular Implementation"}),`
 `,n.jsx(e.p,{children:"Complete Angular implementation of the InputField component matching the React design system."}),`
 `,n.jsx(e.hr,{}),`
@@ -360,4 +360,4 @@ export class Component {
 `,n.jsx(e.li,{children:"Customize as needed"}),`
 `]}),`
 `,n.jsx(e.hr,{}),`
-`,n.jsxs(e.p,{children:[n.jsx(e.strong,{children:"Ready to use! Check the repository for the complete source code."})," 🚀"]})]})}function x(r={}){const{wrapper:e}={...l(),...r.components};return e?n.jsx(e,{...r,children:n.jsx(i,{...r})}):i(r)}export{x as default};
+`,n.jsxs(e.p,{children:[n.jsx(e.strong,{children:"Ready to use! Check the repository for the complete source code."})," 🚀"]})]})}function j(r={}){const{wrapper:e}={...l(),...r.components};return e?n.jsx(e,{...r,children:n.jsx(i,{...r})}):i(r)}export{j as default};

@@ -1,4 +1,4 @@
-import{j as n}from"./jsx-runtime-DSvmvvsx.js";import{useMDXComponents as t}from"./index-DL7Mpk60.js";import{M as r}from"./index-j4FT58Mq.js";import"./index-B0WjJBI_.js";import"./_commonjsHelpers-CqkleIqs.js";import"./iframe-DyoEv3Sd.js";import"./index-B2UzP9c-.js";import"./index-DgH-xKnr.js";import"./index-DrFu-skq.js";function i(s){const e={a:"a",br:"br",code:"code",h1:"h1",h2:"h2",h3:"h3",hr:"hr",li:"li",ol:"ol",p:"p",pre:"pre",strong:"strong",ul:"ul",...t(),...s.components};return n.jsxs(n.Fragment,{children:[n.jsx(r,{title:"Getting Started/React"}),`
+import{j as n}from"./jsx-runtime-DSvmvvsx.js";import{useMDXComponents as t}from"./index-DL7Mpk60.js";import{M as r}from"./index-Cn65EFGR.js";import"./index-B0WjJBI_.js";import"./_commonjsHelpers-CqkleIqs.js";import"./iframe-CCq8Yjux.js";import"./index-Clv5cdFl.js";import"./index-B2UzP9c-.js";import"./index-DgH-xKnr.js";import"./index-DrFu-skq.js";function i(s){const e={a:"a",br:"br",code:"code",h1:"h1",h2:"h2",h3:"h3",hr:"hr",li:"li",ol:"ol",p:"p",pre:"pre",strong:"strong",ul:"ul",...t(),...s.components};return n.jsxs(n.Fragment,{children:[n.jsx(r,{title:"Getting Started/React"}),`
 `,n.jsx(e.h1,{id:"getting-started",children:"Getting Started"}),`
 `,n.jsx(e.h2,{id:"using-lean-ids-in-react",children:"Using Lean IDS in React"}),`
 `,n.jsx(e.h3,{id:"-installation",children:"📦 Installation"}),`
@@ -355,4 +355,4 @@ function App() {
 export default App;
 `})}),`
 `,n.jsx(e.hr,{}),`
-`,n.jsxs(e.p,{children:[n.jsx(e.strong,{children:"Happy coding with Lean IDS in React!"})," 🚀"]})]})}function j(s={}){const{wrapper:e}={...t(),...s.components};return e?n.jsx(e,{...s,children:n.jsx(i,{...s})}):i(s)}export{j as default};
+`,n.jsxs(e.p,{children:[n.jsx(e.strong,{children:"Happy coding with Lean IDS in React!"})," 🚀"]})]})}function u(s={}){const{wrapper:e}={...t(),...s.components};return e?n.jsx(e,{...s,children:n.jsx(i,{...s})}):i(s)}export{u as default};

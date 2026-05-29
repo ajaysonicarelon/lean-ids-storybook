@@ -1,4 +1,4 @@
-import{j as n}from"./jsx-runtime-DSvmvvsx.js";import{useMDXComponents as l}from"./index-DL7Mpk60.js";import{M as r}from"./index-j4FT58Mq.js";import"./index-B0WjJBI_.js";import"./_commonjsHelpers-CqkleIqs.js";import"./iframe-DyoEv3Sd.js";import"./index-B2UzP9c-.js";import"./index-DgH-xKnr.js";import"./index-DrFu-skq.js";function i(s){const e={a:"a",code:"code",h1:"h1",h2:"h2",h3:"h3",hr:"hr",li:"li",p:"p",pre:"pre",strong:"strong",ul:"ul",...l(),...s.components};return n.jsxs(n.Fragment,{children:[n.jsx(r,{title:"About/Team"}),`
+import{j as n}from"./jsx-runtime-DSvmvvsx.js";import{useMDXComponents as l}from"./index-DL7Mpk60.js";import{M as r}from"./index-Cn65EFGR.js";import"./index-B0WjJBI_.js";import"./_commonjsHelpers-CqkleIqs.js";import"./iframe-CCq8Yjux.js";import"./index-Clv5cdFl.js";import"./index-B2UzP9c-.js";import"./index-DgH-xKnr.js";import"./index-DrFu-skq.js";function i(s){const e={a:"a",code:"code",h1:"h1",h2:"h2",h3:"h3",hr:"hr",li:"li",p:"p",pre:"pre",strong:"strong",ul:"ul",...l(),...s.components};return n.jsxs(n.Fragment,{children:[n.jsx(r,{title:"About/Team"}),`
 `,n.jsx(e.h1,{id:"about-lean-ids",children:"About Lean IDS"}),`
 `,n.jsx(e.h2,{id:"-design-system-by-carelon-global-solutions",children:"🎨 Design System by Carelon Global Solutions"}),`
 `,n.jsxs(e.p,{children:[n.jsx(e.strong,{children:"Lean IDS"})," (Internal Design System) is a comprehensive design system created and maintained by the ",n.jsx(e.strong,{children:"Carelon Global Solutions UX Team"})," (CGS UX Team)."]}),`
@@ -50,13 +50,13 @@ import{j as n}from"./jsx-runtime-DSvmvvsx.js";import{useMDXComponents as l}from"
 `]}),`
 `,n.jsx(e.hr,{}),`
 `,n.jsx(e.h2,{id:"-getting-started",children:"🚀 Getting Started"}),`
+`,n.jsx(e.h3,{id:"for-developers",children:"For Developers"}),`
 `,n.jsx(e.p,{children:"Install Lean IDS in your project:"}),`
 `,n.jsx(e.pre,{children:n.jsx(e.code,{className:"language-bash",children:`npm install @ajaysoni7832/lean-ids-components @ajaysoni7832/lean-ids-tokens
 `})}),`
 `,n.jsx(e.pre,{children:n.jsx(e.code,{className:"language-tsx",children:`import { Button, PageLayout } from '@ajaysoni7832/lean-ids-components';
 import { theme } from '@ajaysoni7832/lean-ids-tokens';
 `})}),`
-`,n.jsx(e.hr,{}),`
 `,n.jsx(e.h2,{id:"-contributing",children:"🤝 Contributing"}),`
 `,n.jsx(e.p,{children:"We welcome feedback and contributions from all teams!"}),`
 `,n.jsxs(e.p,{children:[n.jsx(e.strong,{children:"Have suggestions?"})," Email us at: ",n.jsx(e.a,{href:"mailto:dl-ux-carelon@carelon.com",children:"dl-ux-carelon@carelon.com"})]}),`
