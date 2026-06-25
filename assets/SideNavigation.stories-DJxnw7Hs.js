@@ -1,4 +1,4 @@
-import{j as e}from"./jsx-runtime-DSvmvvsx.js";import{S as K}from"./SideNavigation-DFjSW3iC.js";import{I as i}from"./Icon-BytZhcyh.js";import"./index-B0WjJBI_.js";import"./_commonjsHelpers-CqkleIqs.js";import"./styled-components.browser.esm-BIi91Tbq.js";import"./Brand-D2_m1Vnv.js";import"./MenuItem-qyRq59Mo.js";import"./Avatar-BtdRwqdw.js";const se={title:"Components/SideNavigation",component:K,parameters:{layout:"fullscreen",docs:{description:{component:`A vertical navigation sidebar with flexible expand/collapse behavior.
+import{j as e}from"./jsx-runtime-DSvmvvsx.js";import{S as X}from"./SideNavigation-Aa177t46.js";import{I as i}from"./Icon-BytZhcyh.js";import"./index-B0WjJBI_.js";import"./_commonjsHelpers-CqkleIqs.js";import"./styled-components.browser.esm-BIi91Tbq.js";import"./Brand-D2_m1Vnv.js";import"./MenuItem-qyRq59Mo.js";import"./Avatar-BtdRwqdw.js";const ce={title:"Components/SideNavigation",component:X,parameters:{layout:"fullscreen",docs:{description:{component:`A vertical navigation sidebar with flexible expand/collapse behavior.
 
 **Dimensions:**
 - **Collapsed:** 60px width - shows only icons
@@ -111,7 +111,7 @@ const navigationGroups = [
     ]
   }
 ];
-\`\`\``}}},tags:["autodocs"],argTypes:{groups:{description:"Array of navigation groups with menu items",control:"object"},user:{description:"User profile information (initials, name, subtitle, avatarUrl)",control:"object"},isPinned:{control:"boolean",description:"Whether sidebar is pinned (locked in expanded state)"},onPinChange:{description:"Callback when pin state changes"},className:{description:"Additional CSS class",control:"text"}}},g=[{title:"MAIN MENU",items:[{id:"home",label:"Home",icon:e.jsx(i,{name:"Home",size:"medium"}),active:!0},{id:"about",label:"About Us",icon:e.jsx(i,{name:"Info",size:"medium"}),showIndicator:!0},{id:"services",label:"Services",icon:e.jsx(i,{name:"Settings",size:"medium"})},{id:"blog",label:"Blog",icon:e.jsx(i,{name:"Edit",size:"medium"})},{id:"portfolio",label:"Portfolio",icon:e.jsx(i,{name:"Visibility",size:"medium"})}]},{title:"SETTINGS",items:[{id:"profile",label:"Profile",icon:e.jsx(i,{name:"AccountCircle",size:"medium"})},{id:"preferences",label:"Preferences",icon:e.jsx(i,{name:"Tune",size:"medium"})}]}],o={initials:"AS",name:"Ajay Soni",subtitle:"Employee ID"},t={args:{groups:g,user:o},parameters:{layout:"fullscreen",docs:{description:{story:"Default collapsed sidebar. Hover to expand temporarily, or click the pin button to lock it in expanded state."},story:{inline:!1,iframeHeight:600},source:{code:`import { SideNavigation, Icon } from '@lean-ids/components';
+\`\`\``}}},tags:["autodocs"],argTypes:{groups:{description:"Array of navigation groups with menu items",control:"object"},user:{description:"User profile information (initials, name, subtitle, avatarUrl)",control:"object"},isPinned:{control:"boolean",description:"Whether sidebar is pinned (locked in expanded state)"},onPinChange:{description:"Callback when pin state changes",action:"pinChanged"},expandMode:{control:"select",options:["hover","button","both"],description:"How the sidebar expands: hover (default), button only, or both"},toggleButtonPosition:{control:"select",options:["top","bottom"],description:"Position of the toggle button"},toggleButtonOffset:{control:"number",description:"Offset from the position (in pixels)"},toggleButtonSize:{control:"select",options:["small","large"],description:"Size of the toggle button: small (24px) or large (32px)"},toggleButtonIcon:{description:"Custom icon component for toggle button",control:!1},customLogoUrl:{control:"text",description:"URL for custom logo image"},logoAlignment:{control:"select",options:["left","center","right"],description:"Alignment of the logo"},logoPadding:{control:"text",description:"Custom padding for the logo (CSS padding value)"},className:{description:"Additional CSS class",control:"text"}}},f=[{title:"MAIN MENU",items:[{id:"home",label:"Home",icon:e.jsx(i,{name:"Home",size:"medium"}),active:!0},{id:"about",label:"About Us",icon:e.jsx(i,{name:"Info",size:"medium"}),showIndicator:!0},{id:"services",label:"Services",icon:e.jsx(i,{name:"Settings",size:"medium"})},{id:"blog",label:"Blog",icon:e.jsx(i,{name:"Edit",size:"medium"})},{id:"portfolio",label:"Portfolio",icon:e.jsx(i,{name:"Visibility",size:"medium"})}]},{title:"SETTINGS",items:[{id:"profile",label:"Profile",icon:e.jsx(i,{name:"AccountCircle",size:"medium"})},{id:"preferences",label:"Preferences",icon:e.jsx(i,{name:"Tune",size:"medium"})}]}],n={initials:"AS",name:"Ajay Soni",subtitle:"Employee ID"},s={args:{groups:f,user:n},parameters:{layout:"fullscreen",docs:{description:{story:"Default collapsed sidebar. Hover to expand temporarily, or click the pin button to lock it in expanded state."},story:{inline:!0,iframeHeight:700},source:{transform:(Y,Q)=>{const{args:o}=Q,t=[];return o.isPinned&&t.push("isPinned={true}"),o.expandMode&&o.expandMode!=="hover"&&t.push(`expandMode="${o.expandMode}"`),o.toggleButtonPosition&&t.push(`toggleButtonPosition="${o.toggleButtonPosition}"`),o.toggleButtonOffset&&t.push(`toggleButtonOffset={${o.toggleButtonOffset}}`),o.toggleButtonSize&&o.toggleButtonSize!=="large"&&t.push(`toggleButtonSize="${o.toggleButtonSize}"`),o.customLogoUrl&&t.push(`customLogoUrl="${o.customLogoUrl}"`),o.logoAlignment&&o.logoAlignment!=="left"&&t.push(`logoAlignment="${o.logoAlignment}"`),o.logoPadding&&t.push(`logoPadding="${o.logoPadding}"`),`import { SideNavigation, Icon } from '@lean-ids/components';
 
 const navigationGroups = [
   {
@@ -138,7 +138,13 @@ const userProfile = {
   subtitle: 'Employee ID',
 };
 
-<SideNavigation groups={navigationGroups} user={userProfile} />`}}}},s={args:{groups:[{title:"MAIN MENU",items:[{id:"home",label:"Home",icon:e.jsx(i,{name:"Home",size:"medium"}),active:!0},{id:"messages",label:"Messages",icon:e.jsx(i,{name:"Info",size:"medium"}),showIndicator:!0},{id:"alerts",label:"Alerts",icon:e.jsx(i,{name:"Warning",size:"medium"}),showIndicator:!0}]}],user:o},parameters:{layout:"fullscreen",docs:{description:{story:"Sidebar with notification indicators on menu items."},story:{inline:!1,iframeHeight:600},source:{code:`import { SideNavigation, Icon } from '@lean-ids/components';
+<SideNavigation 
+  groups={navigationGroups} 
+  user={userProfile}${t.length>0?`
+  `+t.join(`
+  `)+`
+`:""}
+/>`}}}}},a={args:{groups:[{title:"MAIN MENU",items:[{id:"home",label:"Home",icon:e.jsx(i,{name:"Home",size:"medium"}),active:!0},{id:"messages",label:"Messages",icon:e.jsx(i,{name:"Info",size:"medium"}),showIndicator:!0},{id:"alerts",label:"Alerts",icon:e.jsx(i,{name:"Warning",size:"medium"}),showIndicator:!0}]}],user:n},parameters:{layout:"fullscreen",docs:{description:{story:"Sidebar with notification indicators on menu items."},story:{inline:!1,iframeHeight:600},source:{code:`import { SideNavigation, Icon } from '@lean-ids/components';
 
 const navigationGroups = [
   {
@@ -166,7 +172,7 @@ const navigationGroups = [
   },
 ];
 
-<SideNavigation groups={navigationGroups} user={userProfile} />`}}}},n={args:{groups:g},parameters:{layout:"fullscreen",docs:{description:{story:"Sidebar without user profile section."},story:{inline:!1,iframeHeight:600},source:{code:`import { SideNavigation, Icon } from '@lean-ids/components';
+<SideNavigation groups={navigationGroups} user={userProfile} />`}}}},r={args:{groups:f},parameters:{layout:"fullscreen",docs:{description:{story:"Sidebar without user profile section."},story:{inline:!1,iframeHeight:600},source:{code:`import { SideNavigation, Icon } from '@lean-ids/components';
 
 const navigationGroups = [
   {
@@ -188,7 +194,7 @@ const navigationGroups = [
 ];
 
 // No user prop provided
-<SideNavigation groups={navigationGroups} />`}}}},a={args:{groups:[{title:"NAVIGATION",items:[{id:"dashboard",label:"Dashboard",icon:e.jsx(i,{name:"Home",size:"medium"}),active:!0,onClick:()=>alert("Dashboard clicked!")},{id:"analytics",label:"Analytics",icon:e.jsx(i,{name:"Visibility",size:"medium"}),onClick:()=>alert("Analytics clicked!")},{id:"settings",label:"Settings",icon:e.jsx(i,{name:"Settings",size:"medium"}),onClick:()=>alert("Settings clicked!")}]}],user:o},parameters:{layout:"fullscreen",docs:{description:{story:"Sidebar with click handlers on menu items. Click any item to see the handler in action."},story:{inline:!1,iframeHeight:600},source:{code:`import { SideNavigation, Icon } from '@lean-ids/components';
+<SideNavigation groups={navigationGroups} />`}}}},l={args:{groups:[{title:"NAVIGATION",items:[{id:"dashboard",label:"Dashboard",icon:e.jsx(i,{name:"Home",size:"medium"}),active:!0,onClick:()=>alert("Dashboard clicked!")},{id:"analytics",label:"Analytics",icon:e.jsx(i,{name:"Visibility",size:"medium"}),onClick:()=>alert("Analytics clicked!")},{id:"settings",label:"Settings",icon:e.jsx(i,{name:"Settings",size:"medium"}),onClick:()=>alert("Settings clicked!")}]}],user:n},parameters:{layout:"fullscreen",docs:{description:{story:"Sidebar with click handlers on menu items. Click any item to see the handler in action."},story:{inline:!1,iframeHeight:600},source:{code:`import { SideNavigation, Icon } from '@lean-ids/components';
 
 const navigationGroups = [
   {
@@ -211,7 +217,7 @@ const navigationGroups = [
   },
 ];
 
-<SideNavigation groups={navigationGroups} user={userProfile} />`}}}},r={args:{groups:[{title:"MAIN",items:[{id:"home",label:"Home",icon:e.jsx(i,{name:"Home",size:"medium"}),active:!0},{id:"dashboard",label:"Dashboard",icon:e.jsx(i,{name:"Visibility",size:"medium"})}]},{title:"MANAGEMENT",items:[{id:"users",label:"Users",icon:e.jsx(i,{name:"AccountCircle",size:"medium"})},{id:"settings",label:"Settings",icon:e.jsx(i,{name:"Settings",size:"medium"})}]},{title:"SUPPORT",items:[{id:"help",label:"Help Center",icon:e.jsx(i,{name:"Info",size:"medium"})},{id:"feedback",label:"Feedback",icon:e.jsx(i,{name:"Edit",size:"medium"})}]}],user:o},parameters:{layout:"fullscreen",docs:{description:{story:"Sidebar with multiple navigation groups separated by dividers."},story:{inline:!1,iframeHeight:600},source:{code:`import { SideNavigation, Icon } from '@lean-ids/components';
+<SideNavigation groups={navigationGroups} user={userProfile} />`}}}},c={args:{groups:[{title:"MAIN",items:[{id:"home",label:"Home",icon:e.jsx(i,{name:"Home",size:"medium"}),active:!0},{id:"dashboard",label:"Dashboard",icon:e.jsx(i,{name:"Visibility",size:"medium"})}]},{title:"MANAGEMENT",items:[{id:"users",label:"Users",icon:e.jsx(i,{name:"AccountCircle",size:"medium"})},{id:"settings",label:"Settings",icon:e.jsx(i,{name:"Settings",size:"medium"})}]},{title:"SUPPORT",items:[{id:"help",label:"Help Center",icon:e.jsx(i,{name:"Info",size:"medium"})},{id:"feedback",label:"Feedback",icon:e.jsx(i,{name:"Edit",size:"medium"})}]}],user:n},parameters:{layout:"fullscreen",docs:{description:{story:"Sidebar with multiple navigation groups separated by dividers."},story:{inline:!1,iframeHeight:600},source:{code:`import { SideNavigation, Icon } from '@lean-ids/components';
 
 const navigationGroups = [
   {
@@ -230,7 +236,7 @@ const navigationGroups = [
   },
 ];
 
-<SideNavigation groups={navigationGroups} user={userProfile} />`}}}},l={args:{groups:[{title:"PAGES",items:[{id:"home",label:"Home",icon:e.jsx(i,{name:"Home",size:"medium"}),active:!1},{id:"about",label:"About",icon:e.jsx(i,{name:"Info",size:"medium"}),active:!0},{id:"contact",label:"Contact",icon:e.jsx(i,{name:"Edit",size:"medium"}),active:!1}]}],user:o},parameters:{layout:"fullscreen",docs:{description:{story:'Sidebar showing active state on the "About" menu item. Active items have a blue left border and background.'},story:{inline:!1,iframeHeight:600},source:{code:`import { SideNavigation, Icon } from '@lean-ids/components';
+<SideNavigation groups={navigationGroups} user={userProfile} />`}}}},m={args:{groups:[{title:"PAGES",items:[{id:"home",label:"Home",icon:e.jsx(i,{name:"Home",size:"medium"}),active:!1},{id:"about",label:"About",icon:e.jsx(i,{name:"Info",size:"medium"}),active:!0},{id:"contact",label:"Contact",icon:e.jsx(i,{name:"Edit",size:"medium"}),active:!1}]}],user:n},parameters:{layout:"fullscreen",docs:{description:{story:'Sidebar showing active state on the "About" menu item. Active items have a blue left border and background.'},story:{inline:!1,iframeHeight:600},source:{code:`import { SideNavigation, Icon } from '@lean-ids/components';
 import { useState } from 'react';
 
 function Navigation() {
@@ -259,7 +265,7 @@ function Navigation() {
   ];
 
   return <SideNavigation groups={navigationGroups} user={userProfile} />;
-}`}}}},c={args:{groups:g,user:o,isPinned:!0},parameters:{layout:"fullscreen",docs:{description:{story:"Sidebar in pinned state (locked at 236px width). The pin button is filled when pinned."},story:{inline:!1,iframeHeight:600},source:{code:`import { SideNavigation } from '@lean-ids/components';
+}`}}}},d={args:{groups:f,user:n,isPinned:!0},parameters:{layout:"fullscreen",docs:{description:{story:"Sidebar in pinned state (locked at 236px width). The pin button is filled when pinned."},story:{inline:!1,iframeHeight:600},source:{code:`import { SideNavigation } from '@lean-ids/components';
 import { useState } from 'react';
 
 function App() {
@@ -276,7 +282,7 @@ function App() {
       }}
     />
   );
-}`}}}},m={args:{groups:g,user:{initials:"JD",name:"John Doe",subtitle:"Admin User",avatarUrl:"https://i.pravatar.cc/150?img=12"}},parameters:{layout:"fullscreen",docs:{description:{story:"Sidebar with user profile including an avatar image."},story:{inline:!1,iframeHeight:600},source:{code:`import { SideNavigation } from '@lean-ids/components';
+}`}}}},u={args:{groups:f,user:{initials:"JD",name:"John Doe",subtitle:"Admin User",avatarUrl:"https://i.pravatar.cc/150?img=12"}},parameters:{layout:"fullscreen",docs:{description:{story:"Sidebar with user profile including an avatar image."},story:{inline:!1,iframeHeight:600},source:{code:`import { SideNavigation } from '@lean-ids/components';
 
 const userProfile = {
   initials: 'JD',
@@ -285,7 +291,7 @@ const userProfile = {
   avatarUrl: 'https://example.com/avatar.jpg', // Optional
 };
 
-<SideNavigation groups={navigationGroups} user={userProfile} />`}}}},d={args:{groups:[{title:"DASHBOARD",items:[{id:"overview",label:"Overview",icon:e.jsx(i,{name:"Home",size:"medium"}),active:!0},{id:"analytics",label:"Analytics",icon:e.jsx(i,{name:"Visibility",size:"medium"})},{id:"reports",label:"Reports",icon:e.jsx(i,{name:"Edit",size:"medium"})}]},{title:"CONTENT",items:[{id:"posts",label:"Posts",icon:e.jsx(i,{name:"Edit",size:"medium"})},{id:"pages",label:"Pages",icon:e.jsx(i,{name:"Info",size:"medium"})},{id:"media",label:"Media",icon:e.jsx(i,{name:"Visibility",size:"medium"})},{id:"comments",label:"Comments",icon:e.jsx(i,{name:"Info",size:"medium"})}]},{title:"USERS",items:[{id:"all-users",label:"All Users",icon:e.jsx(i,{name:"AccountCircle",size:"medium"})},{id:"add-user",label:"Add New",icon:e.jsx(i,{name:"Add",size:"medium"})},{id:"roles",label:"Roles",icon:e.jsx(i,{name:"Settings",size:"medium"})}]},{title:"SETTINGS",items:[{id:"general",label:"General",icon:e.jsx(i,{name:"Settings",size:"medium"})},{id:"security",label:"Security",icon:e.jsx(i,{name:"Lock",size:"medium"})},{id:"notifications",label:"Notifications",icon:e.jsx(i,{name:"Info",size:"medium"})},{id:"integrations",label:"Integrations",icon:e.jsx(i,{name:"Settings",size:"medium"})}]},{title:"TOOLS",items:[{id:"import",label:"Import",icon:e.jsx(i,{name:"Upload",size:"medium"})},{id:"export",label:"Export",icon:e.jsx(i,{name:"Download",size:"medium"})},{id:"backup",label:"Backup",icon:e.jsx(i,{name:"Save",size:"medium"})}]}],user:o},parameters:{layout:"fullscreen",docs:{description:{story:"Sidebar with many menu items demonstrating automatic scrolling when content overflows. The navigation area becomes scrollable while the user profile remains fixed at the bottom."},story:{inline:!1,iframeHeight:600},source:{code:`import { SideNavigation, Icon } from '@lean-ids/components';
+<SideNavigation groups={navigationGroups} user={userProfile} />`}}}},p={args:{groups:[{title:"DASHBOARD",items:[{id:"overview",label:"Overview",icon:e.jsx(i,{name:"Home",size:"medium"}),active:!0},{id:"analytics",label:"Analytics",icon:e.jsx(i,{name:"Visibility",size:"medium"})},{id:"reports",label:"Reports",icon:e.jsx(i,{name:"Edit",size:"medium"})}]},{title:"CONTENT",items:[{id:"posts",label:"Posts",icon:e.jsx(i,{name:"Edit",size:"medium"})},{id:"pages",label:"Pages",icon:e.jsx(i,{name:"Info",size:"medium"})},{id:"media",label:"Media",icon:e.jsx(i,{name:"Visibility",size:"medium"})},{id:"comments",label:"Comments",icon:e.jsx(i,{name:"Info",size:"medium"})}]},{title:"USERS",items:[{id:"all-users",label:"All Users",icon:e.jsx(i,{name:"AccountCircle",size:"medium"})},{id:"add-user",label:"Add New",icon:e.jsx(i,{name:"Add",size:"medium"})},{id:"roles",label:"Roles",icon:e.jsx(i,{name:"Settings",size:"medium"})}]},{title:"SETTINGS",items:[{id:"general",label:"General",icon:e.jsx(i,{name:"Settings",size:"medium"})},{id:"security",label:"Security",icon:e.jsx(i,{name:"Lock",size:"medium"})},{id:"notifications",label:"Notifications",icon:e.jsx(i,{name:"Info",size:"medium"})},{id:"integrations",label:"Integrations",icon:e.jsx(i,{name:"Settings",size:"medium"})}]},{title:"TOOLS",items:[{id:"import",label:"Import",icon:e.jsx(i,{name:"Upload",size:"medium"})},{id:"export",label:"Export",icon:e.jsx(i,{name:"Download",size:"medium"})},{id:"backup",label:"Backup",icon:e.jsx(i,{name:"Save",size:"medium"})}]}],user:n},parameters:{layout:"fullscreen",docs:{description:{story:"Sidebar with many menu items demonstrating automatic scrolling when content overflows. The navigation area becomes scrollable while the user profile remains fixed at the bottom."},story:{inline:!1,iframeHeight:600},source:{code:`import { SideNavigation, Icon } from '@lean-ids/components';
 
 const navigationGroups = [
   {
@@ -308,7 +314,7 @@ const navigationGroups = [
   // ... more groups
 ];
 
-<SideNavigation groups={navigationGroups} user={userProfile} />`}}}},u={args:{groups:[{title:"DASHBOARD",items:[{id:"overview",label:"Overview",icon:e.jsx(i,{name:"Home",size:"medium"}),active:!0},{id:"analytics",label:"Analytics",icon:e.jsx(i,{name:"Visibility",size:"medium"})}]},{title:"CONTENT",items:[{id:"posts",label:"Posts",icon:e.jsx(i,{name:"Edit",size:"medium"}),showIndicator:!0},{id:"media",label:"Media",icon:e.jsx(i,{name:"Visibility",size:"medium"})},{id:"comments",label:"Comments",icon:e.jsx(i,{name:"Info",size:"medium"}),showIndicator:!0}]},{title:"SETTINGS",items:[{id:"profile",label:"Profile",icon:e.jsx(i,{name:"AccountCircle",size:"medium"})},{id:"preferences",label:"Preferences",icon:e.jsx(i,{name:"Settings",size:"medium"})}]}],user:o},parameters:{layout:"fullscreen",docs:{description:{story:"Complete example showing all features: multiple groups, active states, notification indicators, and user profile."},story:{inline:!1,iframeHeight:600},source:{code:`import { SideNavigation, Icon } from '@lean-ids/components';
+<SideNavigation groups={navigationGroups} user={userProfile} />`}}}},g={args:{groups:[{title:"DASHBOARD",items:[{id:"overview",label:"Overview",icon:e.jsx(i,{name:"Home",size:"medium"}),active:!0},{id:"analytics",label:"Analytics",icon:e.jsx(i,{name:"Visibility",size:"medium"})}]},{title:"CONTENT",items:[{id:"posts",label:"Posts",icon:e.jsx(i,{name:"Edit",size:"medium"}),showIndicator:!0},{id:"media",label:"Media",icon:e.jsx(i,{name:"Visibility",size:"medium"})},{id:"comments",label:"Comments",icon:e.jsx(i,{name:"Info",size:"medium"}),showIndicator:!0}]},{title:"SETTINGS",items:[{id:"profile",label:"Profile",icon:e.jsx(i,{name:"AccountCircle",size:"medium"})},{id:"preferences",label:"Preferences",icon:e.jsx(i,{name:"Settings",size:"medium"})}]}],user:{...n,onClick:()=>console.log("User profile clicked")},expandMode:"both",toggleButtonPosition:"top",toggleButtonSize:"large",customLogoUrl:void 0,logoAlignment:"center"},parameters:{layout:"fullscreen",docs:{description:{story:"Complete example showing ALL features: multiple groups, active states, notification indicators, user profile with click handler, expand modes (hover + button), toggle button, custom logo support, and mouse events."},story:{inline:!0,iframeHeight:700},source:{code:`import { SideNavigation, Icon } from '@lean-ids/components';
 import { useState } from 'react';
 
 function App() {
@@ -325,6 +331,8 @@ function App() {
           icon: <Icon name="Home" size="medium" />,
           active: activeId === 'overview',
           onClick: () => setActiveId('overview'),
+          onMouseEnter: () => console.log('Hovered: Overview'),
+          onMouseLeave: () => console.log('Left: Overview'),
         },
         {
           id: 'analytics',
@@ -352,6 +360,14 @@ function App() {
           icon: <Icon name="Visibility" size="medium" />,
           active: activeId === 'media',
           onClick: () => setActiveId('media'),
+        },
+        {
+          id: 'comments',
+          label: 'Comments',
+          icon: <Icon name="Info" size="medium" />,
+          showIndicator: true,
+          active: activeId === 'comments',
+          onClick: () => setActiveId('comments'),
         },
       ],
     },
@@ -381,6 +397,7 @@ function App() {
     name: 'Ajay Soni',
     subtitle: 'Employee ID',
     avatarUrl: 'https://example.com/avatar.jpg', // Optional
+    onClick: () => console.log('User profile clicked!'),
   };
 
   return (
@@ -389,9 +406,22 @@ function App() {
       user={userProfile}
       isPinned={isPinned}
       onPinChange={(pinned) => setIsPinned(pinned)}
+      
+      // Expand mode: 'hover', 'button', or 'both'
+      expandMode="both"
+      
+      // Toggle button configuration
+      toggleButtonPosition="top"
+      toggleButtonSize="large"
+      toggleButtonOffset={24}
+      
+      // Custom logo (optional)
+      customLogoUrl="/path/to/your/logo.png"
+      logoAlignment="center"
+      logoPadding="16px"
     />
   );
-}`}}}},p={args:{groups:[{title:"MAIN MENU",items:[{id:"home",label:"Home",icon:e.jsx(i,{name:"Home",size:"medium"}),active:!0},{id:"products",label:"Products",icon:e.jsx(i,{name:"ShoppingCart",size:"medium"}),children:[{id:"products-all",label:"All Products"},{id:"products-categories",label:"Categories",children:[{id:"cat-electronics",label:"Electronics"},{id:"cat-clothing",label:"Clothing"},{id:"cat-food",label:"Food & Beverages"}]},{id:"products-featured",label:"Featured Items"}]},{id:"orders",label:"Orders",icon:e.jsx(i,{name:"Receipt",size:"medium"}),showIndicator:!0,children:[{id:"orders-pending",label:"Pending Orders"},{id:"orders-completed",label:"Completed Orders"},{id:"orders-cancelled",label:"Cancelled Orders"}]}]},{title:"REPORTS",items:[{id:"analytics",label:"Analytics",icon:e.jsx(i,{name:"Visibility",size:"medium"}),children:[{id:"analytics-sales",label:"Sales Report"},{id:"analytics-traffic",label:"Traffic Report",children:[{id:"traffic-daily",label:"Daily Traffic"},{id:"traffic-monthly",label:"Monthly Traffic"}]},{id:"analytics-customers",label:"Customer Report"}]}]},{title:"SETTINGS",items:[{id:"settings",label:"Settings",icon:e.jsx(i,{name:"Settings",size:"medium"}),children:[{id:"settings-general",label:"General"},{id:"settings-security",label:"Security"},{id:"settings-notifications",label:"Notifications"}]}]}],user:o},parameters:{layout:"fullscreen",docs:{description:{story:"Example showing nested menu functionality. Hover over menu items with arrows to see nested submenus appear on the right. Supports multiple levels of nesting."},story:{inline:!1,iframeHeight:600},source:{code:`import { SideNavigation, Icon } from '@lean-ids/components';
+}`}}}},b={args:{groups:[{title:"MAIN MENU",items:[{id:"home",label:"Home",icon:e.jsx(i,{name:"Home",size:"medium"}),active:!0},{id:"products",label:"Products",icon:e.jsx(i,{name:"ShoppingCart",size:"medium"}),children:[{id:"products-all",label:"All Products"},{id:"products-categories",label:"Categories",children:[{id:"cat-electronics",label:"Electronics"},{id:"cat-clothing",label:"Clothing"},{id:"cat-food",label:"Food & Beverages"}]},{id:"products-featured",label:"Featured Items"}]},{id:"orders",label:"Orders",icon:e.jsx(i,{name:"Receipt",size:"medium"}),showIndicator:!0,children:[{id:"orders-pending",label:"Pending Orders"},{id:"orders-completed",label:"Completed Orders"},{id:"orders-cancelled",label:"Cancelled Orders"}]}]},{title:"REPORTS",items:[{id:"analytics",label:"Analytics",icon:e.jsx(i,{name:"Visibility",size:"medium"}),children:[{id:"analytics-sales",label:"Sales Report"},{id:"analytics-traffic",label:"Traffic Report",children:[{id:"traffic-daily",label:"Daily Traffic"},{id:"traffic-monthly",label:"Monthly Traffic"}]},{id:"analytics-customers",label:"Customer Report"}]}]},{title:"SETTINGS",items:[{id:"settings",label:"Settings",icon:e.jsx(i,{name:"Settings",size:"medium"}),children:[{id:"settings-general",label:"General"},{id:"settings-security",label:"Security"},{id:"settings-notifications",label:"Notifications"}]}]}],user:n},parameters:{layout:"fullscreen",docs:{description:{story:"Example showing nested menu functionality. Hover over menu items with arrows to see nested submenus appear on the right. Supports multiple levels of nesting."},story:{inline:!1,iframeHeight:600},source:{code:`import { SideNavigation, Icon } from '@lean-ids/components';
 
 function App() {
   const navigationGroups = [
@@ -445,7 +475,7 @@ function App() {
       user={userProfile}
     />
   );
-}`}}}};var b,f,v;t.parameters={...t.parameters,docs:{...(b=t.parameters)==null?void 0:b.docs,source:{originalSource:`{
+}`}}}};var v,h,I;s.parameters={...s.parameters,docs:{...(v=s.parameters)==null?void 0:v.docs,source:{originalSource:`{
   args: {
     groups: sampleGroups,
     user: sampleUser
@@ -457,11 +487,25 @@ function App() {
         story: 'Default collapsed sidebar. Hover to expand temporarily, or click the pin button to lock it in expanded state.'
       },
       story: {
-        inline: false,
-        iframeHeight: 600
+        inline: true,
+        iframeHeight: 700
       },
       source: {
-        code: \`import { SideNavigation, Icon } from '@lean-ids/components';
+        transform: (_code: string, storyContext: any) => {
+          const {
+            args
+          } = storyContext;
+          const props = [];
+          if (args.isPinned) props.push('isPinned={true}');
+          if (args.expandMode && args.expandMode !== 'hover') props.push(\`expandMode="\${args.expandMode}"\`);
+          if (args.toggleButtonPosition) props.push(\`toggleButtonPosition="\${args.toggleButtonPosition}"\`);
+          if (args.toggleButtonOffset) props.push(\`toggleButtonOffset={\${args.toggleButtonOffset}}\`);
+          if (args.toggleButtonSize && args.toggleButtonSize !== 'large') props.push(\`toggleButtonSize="\${args.toggleButtonSize}"\`);
+          if (args.customLogoUrl) props.push(\`customLogoUrl="\${args.customLogoUrl}"\`);
+          if (args.logoAlignment && args.logoAlignment !== 'left') props.push(\`logoAlignment="\${args.logoAlignment}"\`);
+          if (args.logoPadding) props.push(\`logoPadding="\${args.logoPadding}"\`);
+          const propsString = props.length > 0 ? '\\n  ' + props.join('\\n  ') + '\\n' : '';
+          return \`import { SideNavigation, Icon } from '@lean-ids/components';
 
 const navigationGroups = [
   {
@@ -488,11 +532,15 @@ const userProfile = {
   subtitle: 'Employee ID',
 };
 
-<SideNavigation groups={navigationGroups} user={userProfile} />\`
+<SideNavigation 
+  groups={navigationGroups} 
+  user={userProfile}\${propsString}
+/>\`;
+        }
       }
     }
   }
-}`,...(v=(f=t.parameters)==null?void 0:f.docs)==null?void 0:v.source}}};var I,h,S;s.parameters={...s.parameters,docs:{...(I=s.parameters)==null?void 0:I.docs,source:{originalSource:`{
+}`,...(I=(h=s.parameters)==null?void 0:h.docs)==null?void 0:I.source}}};var S,y,A;a.parameters={...a.parameters,docs:{...(S=a.parameters)==null?void 0:S.docs,source:{originalSource:`{
   args: {
     groups: [{
       title: 'MAIN MENU',
@@ -558,7 +606,7 @@ const navigationGroups = [
       }
     }
   }
-}`,...(S=(h=s.parameters)==null?void 0:h.docs)==null?void 0:S.source}}};var y,A,z;n.parameters={...n.parameters,docs:{...(y=n.parameters)==null?void 0:y.docs,source:{originalSource:`{
+}`,...(A=(y=a.parameters)==null?void 0:y.docs)==null?void 0:A.source}}};var z,N,P;r.parameters={...r.parameters,docs:{...(z=r.parameters)==null?void 0:z.docs,source:{originalSource:`{
   args: {
     groups: sampleGroups
   },
@@ -599,7 +647,7 @@ const navigationGroups = [
       }
     }
   }
-}`,...(z=(A=n.parameters)==null?void 0:A.docs)==null?void 0:z.source}}};var N,P,w;a.parameters={...a.parameters,docs:{...(N=a.parameters)==null?void 0:N.docs,source:{originalSource:`{
+}`,...(P=(N=r.parameters)==null?void 0:N.docs)==null?void 0:P.source}}};var x,C,w;l.parameters={...l.parameters,docs:{...(x=l.parameters)==null?void 0:x.docs,source:{originalSource:`{
   args: {
     groups: [{
       title: 'NAVIGATION',
@@ -661,7 +709,7 @@ const navigationGroups = [
       }
     }
   }
-}`,...(w=(P=a.parameters)==null?void 0:P.docs)==null?void 0:w.source}}};var x,C,H;r.parameters={...r.parameters,docs:{...(x=r.parameters)==null?void 0:x.docs,source:{originalSource:`{
+}`,...(w=(C=l.parameters)==null?void 0:C.docs)==null?void 0:w.source}}};var H,E,M;c.parameters={...c.parameters,docs:{...(H=c.parameters)==null?void 0:H.docs,source:{originalSource:`{
   args: {
     groups: [{
       title: 'MAIN',
@@ -734,7 +782,7 @@ const navigationGroups = [
       }
     }
   }
-}`,...(H=(C=r.parameters)==null?void 0:C.docs)==null?void 0:H.source}}};var E,G,k;l.parameters={...l.parameters,docs:{...(E=l.parameters)==null?void 0:E.docs,source:{originalSource:`{
+}`,...(M=(E=c.parameters)==null?void 0:E.docs)==null?void 0:M.source}}};var k,G,U;m.parameters={...m.parameters,docs:{...(k=m.parameters)==null?void 0:k.docs,source:{originalSource:`{
   args: {
     groups: [{
       title: 'PAGES',
@@ -801,7 +849,7 @@ function Navigation() {
       }
     }
   }
-}`,...(k=(G=l.parameters)==null?void 0:G.docs)==null?void 0:k.source}}};var j,M,T;c.parameters={...c.parameters,docs:{...(j=c.parameters)==null?void 0:j.docs,source:{originalSource:`{
+}`,...(U=(G=m.parameters)==null?void 0:G.docs)==null?void 0:U.source}}};var j,O,T;d.parameters={...d.parameters,docs:{...(j=d.parameters)==null?void 0:j.docs,source:{originalSource:`{
   args: {
     groups: sampleGroups,
     user: sampleUser,
@@ -839,7 +887,7 @@ function App() {
       }
     }
   }
-}`,...(T=(M=c.parameters)==null?void 0:M.docs)==null?void 0:T.source}}};var U,D,O;m.parameters={...m.parameters,docs:{...(U=m.parameters)==null?void 0:U.docs,source:{originalSource:`{
+}`,...(T=(O=d.parameters)==null?void 0:O.docs)==null?void 0:T.source}}};var D,B,R;u.parameters={...u.parameters,docs:{...(D=u.parameters)==null?void 0:D.docs,source:{originalSource:`{
   args: {
     groups: sampleGroups,
     user: {
@@ -873,7 +921,7 @@ const userProfile = {
       }
     }
   }
-}`,...(O=(D=m.parameters)==null?void 0:D.docs)==null?void 0:O.source}}};var R,V,W;d.parameters={...d.parameters,docs:{...(R=d.parameters)==null?void 0:R.docs,source:{originalSource:`{
+}`,...(R=(B=u.parameters)==null?void 0:B.docs)==null?void 0:R.source}}};var V,L,W;p.parameters={...p.parameters,docs:{...(V=p.parameters)==null?void 0:V.docs,source:{originalSource:`{
   args: {
     groups: [{
       title: 'DASHBOARD',
@@ -1000,7 +1048,7 @@ const navigationGroups = [
       }
     }
   }
-}`,...(W=(V=d.parameters)==null?void 0:V.docs)==null?void 0:W.source}}};var B,J,F;u.parameters={...u.parameters,docs:{...(B=u.parameters)==null?void 0:B.docs,source:{originalSource:`{
+}`,...(W=(L=p.parameters)==null?void 0:L.docs)==null?void 0:W.source}}};var $,J,F;g.parameters={...g.parameters,docs:{...($=g.parameters)==null?void 0:$.docs,source:{originalSource:`{
   args: {
     groups: [{
       title: 'DASHBOARD',
@@ -1043,17 +1091,25 @@ const navigationGroups = [
         icon: <Icon name="Settings" size="medium" />
       }]
     }],
-    user: sampleUser
+    user: {
+      ...sampleUser,
+      onClick: () => console.log('User profile clicked')
+    },
+    expandMode: 'both',
+    toggleButtonPosition: 'top',
+    toggleButtonSize: 'large',
+    customLogoUrl: undefined,
+    logoAlignment: 'center'
   },
   parameters: {
     layout: 'fullscreen',
     docs: {
       description: {
-        story: 'Complete example showing all features: multiple groups, active states, notification indicators, and user profile.'
+        story: 'Complete example showing ALL features: multiple groups, active states, notification indicators, user profile with click handler, expand modes (hover + button), toggle button, custom logo support, and mouse events.'
       },
       story: {
-        inline: false,
-        iframeHeight: 600
+        inline: true,
+        iframeHeight: 700
       },
       source: {
         code: \`import { SideNavigation, Icon } from '@lean-ids/components';
@@ -1073,6 +1129,8 @@ function App() {
           icon: <Icon name="Home" size="medium" />,
           active: activeId === 'overview',
           onClick: () => setActiveId('overview'),
+          onMouseEnter: () => console.log('Hovered: Overview'),
+          onMouseLeave: () => console.log('Left: Overview'),
         },
         {
           id: 'analytics',
@@ -1100,6 +1158,14 @@ function App() {
           icon: <Icon name="Visibility" size="medium" />,
           active: activeId === 'media',
           onClick: () => setActiveId('media'),
+        },
+        {
+          id: 'comments',
+          label: 'Comments',
+          icon: <Icon name="Info" size="medium" />,
+          showIndicator: true,
+          active: activeId === 'comments',
+          onClick: () => setActiveId('comments'),
         },
       ],
     },
@@ -1129,6 +1195,7 @@ function App() {
     name: 'Ajay Soni',
     subtitle: 'Employee ID',
     avatarUrl: 'https://example.com/avatar.jpg', // Optional
+    onClick: () => console.log('User profile clicked!'),
   };
 
   return (
@@ -1137,13 +1204,26 @@ function App() {
       user={userProfile}
       isPinned={isPinned}
       onPinChange={(pinned) => setIsPinned(pinned)}
+      
+      // Expand mode: 'hover', 'button', or 'both'
+      expandMode="both"
+      
+      // Toggle button configuration
+      toggleButtonPosition="top"
+      toggleButtonSize="large"
+      toggleButtonOffset={24}
+      
+      // Custom logo (optional)
+      customLogoUrl="/path/to/your/logo.png"
+      logoAlignment="center"
+      logoPadding="16px"
     />
   );
 }\`
       }
     }
   }
-}`,...(F=(J=u.parameters)==null?void 0:J.docs)==null?void 0:F.source}}};var L,_,q;p.parameters={...p.parameters,docs:{...(L=p.parameters)==null?void 0:L.docs,source:{originalSource:`{
+}`,...(F=(J=g.parameters)==null?void 0:J.docs)==null?void 0:F.source}}};var _,q,K;b.parameters={...b.parameters,docs:{...(_=b.parameters)==null?void 0:_.docs,source:{originalSource:`{
   args: {
     groups: [{
       title: 'MAIN MENU',
@@ -1305,4 +1385,4 @@ function App() {
       }
     }
   }
-}`,...(q=(_=p.parameters)==null?void 0:_.docs)==null?void 0:q.source}}};const ne=["Default","WithNotifications","WithoutUser","WithClickHandlers","MultipleGroups","WithActiveState","PinnedState","WithAvatarImage","WithManyItems","CompleteExample","WithNestedMenus"];export{u as CompleteExample,t as Default,r as MultipleGroups,c as PinnedState,l as WithActiveState,m as WithAvatarImage,a as WithClickHandlers,d as WithManyItems,p as WithNestedMenus,s as WithNotifications,n as WithoutUser,ne as __namedExportsOrder,se as default};
+}`,...(K=(q=b.parameters)==null?void 0:q.docs)==null?void 0:K.source}}};const me=["Default","WithNotifications","WithoutUser","WithClickHandlers","MultipleGroups","WithActiveState","PinnedState","WithAvatarImage","WithManyItems","CompleteExample","WithNestedMenus"];export{g as CompleteExample,s as Default,c as MultipleGroups,d as PinnedState,m as WithActiveState,u as WithAvatarImage,l as WithClickHandlers,p as WithManyItems,b as WithNestedMenus,a as WithNotifications,r as WithoutUser,me as __namedExportsOrder,ce as default};

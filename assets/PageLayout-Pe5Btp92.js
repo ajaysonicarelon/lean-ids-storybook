@@ -1,4 +1,4 @@
-import{j as t}from"./jsx-runtime-DSvmvvsx.js";import{R as b}from"./index-B0WjJBI_.js";import{c as a}from"./styled-components.browser.esm-BIi91Tbq.js";import{T as x}from"./TopHeader-D8H5tFj4.js";import{S as C}from"./SideNavigation-DFjSW3iC.js";import{B as $}from"./Breadcrumb-DEF5sgBW.js";import{F as j}from"./Footer-BmRSLCud.js";const l=a.div`
+import{j as t}from"./jsx-runtime-DSvmvvsx.js";import{R as b}from"./index-B0WjJBI_.js";import{c as a}from"./styled-components.browser.esm-BIi91Tbq.js";import{T as x}from"./TopHeader-D8H5tFj4.js";import{S as C}from"./SideNavigation-Aa177t46.js";import{B as $}from"./Breadcrumb-DEF5sgBW.js";import{F as j}from"./Footer-BmRSLCud.js";const l=a.div`
   display: flex;
   flex-direction: column;
   height: 100vh; /* Fixed viewport height - no page scrolling */
