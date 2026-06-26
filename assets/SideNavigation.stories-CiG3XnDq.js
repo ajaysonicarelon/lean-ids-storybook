@@ -1,4 +1,4 @@
-import{j as e}from"./jsx-runtime-DSvmvvsx.js";import{S as X}from"./SideNavigation-Aa177t46.js";import{I as i}from"./Icon-BytZhcyh.js";import"./index-B0WjJBI_.js";import"./_commonjsHelpers-CqkleIqs.js";import"./styled-components.browser.esm-BIi91Tbq.js";import"./Brand-D2_m1Vnv.js";import"./MenuItem-qyRq59Mo.js";import"./Avatar-BtdRwqdw.js";const ce={title:"Components/SideNavigation",component:X,parameters:{layout:"fullscreen",docs:{description:{component:`A vertical navigation sidebar with flexible expand/collapse behavior.
+import{j as e}from"./jsx-runtime-DSvmvvsx.js";import{S as ie}from"./SideNavigation-CAxgutlO.js";import{I as i}from"./Icon-BytZhcyh.js";import"./index-B0WjJBI_.js";import"./_commonjsHelpers-CqkleIqs.js";import"./styled-components.browser.esm-BIi91Tbq.js";import"./Brand-D2_m1Vnv.js";import"./MenuItem-DpIAPb1N.js";import"./Avatar-BtdRwqdw.js";const pe={title:"Components/SideNavigation",component:ie,parameters:{layout:"fullscreen",docs:{description:{component:`A vertical navigation sidebar with flexible expand/collapse behavior.
 
 **Dimensions:**
 - **Collapsed:** 60px width - shows only icons
@@ -111,7 +111,7 @@ const navigationGroups = [
     ]
   }
 ];
-\`\`\``}}},tags:["autodocs"],argTypes:{groups:{description:"Array of navigation groups with menu items",control:"object"},user:{description:"User profile information (initials, name, subtitle, avatarUrl)",control:"object"},isPinned:{control:"boolean",description:"Whether sidebar is pinned (locked in expanded state)"},onPinChange:{description:"Callback when pin state changes",action:"pinChanged"},expandMode:{control:"select",options:["hover","button","both"],description:"How the sidebar expands: hover (default), button only, or both"},toggleButtonPosition:{control:"select",options:["top","bottom"],description:"Position of the toggle button"},toggleButtonOffset:{control:"number",description:"Offset from the position (in pixels)"},toggleButtonSize:{control:"select",options:["small","large"],description:"Size of the toggle button: small (24px) or large (32px)"},toggleButtonIcon:{description:"Custom icon component for toggle button",control:!1},customLogoUrl:{control:"text",description:"URL for custom logo image"},logoAlignment:{control:"select",options:["left","center","right"],description:"Alignment of the logo"},logoPadding:{control:"text",description:"Custom padding for the logo (CSS padding value)"},className:{description:"Additional CSS class",control:"text"}}},f=[{title:"MAIN MENU",items:[{id:"home",label:"Home",icon:e.jsx(i,{name:"Home",size:"medium"}),active:!0},{id:"about",label:"About Us",icon:e.jsx(i,{name:"Info",size:"medium"}),showIndicator:!0},{id:"services",label:"Services",icon:e.jsx(i,{name:"Settings",size:"medium"})},{id:"blog",label:"Blog",icon:e.jsx(i,{name:"Edit",size:"medium"})},{id:"portfolio",label:"Portfolio",icon:e.jsx(i,{name:"Visibility",size:"medium"})}]},{title:"SETTINGS",items:[{id:"profile",label:"Profile",icon:e.jsx(i,{name:"AccountCircle",size:"medium"})},{id:"preferences",label:"Preferences",icon:e.jsx(i,{name:"Tune",size:"medium"})}]}],n={initials:"AS",name:"Ajay Soni",subtitle:"Employee ID"},s={args:{groups:f,user:n},parameters:{layout:"fullscreen",docs:{description:{story:"Default collapsed sidebar. Hover to expand temporarily, or click the pin button to lock it in expanded state."},story:{inline:!0,iframeHeight:700},source:{transform:(Y,Q)=>{const{args:o}=Q,t=[];return o.isPinned&&t.push("isPinned={true}"),o.expandMode&&o.expandMode!=="hover"&&t.push(`expandMode="${o.expandMode}"`),o.toggleButtonPosition&&t.push(`toggleButtonPosition="${o.toggleButtonPosition}"`),o.toggleButtonOffset&&t.push(`toggleButtonOffset={${o.toggleButtonOffset}}`),o.toggleButtonSize&&o.toggleButtonSize!=="large"&&t.push(`toggleButtonSize="${o.toggleButtonSize}"`),o.customLogoUrl&&t.push(`customLogoUrl="${o.customLogoUrl}"`),o.logoAlignment&&o.logoAlignment!=="left"&&t.push(`logoAlignment="${o.logoAlignment}"`),o.logoPadding&&t.push(`logoPadding="${o.logoPadding}"`),`import { SideNavigation, Icon } from '@lean-ids/components';
+\`\`\``}}},tags:["autodocs"],argTypes:{groups:{description:"Array of navigation groups with menu items",control:"object"},user:{description:"User profile information (initials, name, subtitle, avatarUrl)",control:"object"},isPinned:{control:"boolean",description:"Whether sidebar is pinned (locked in expanded state)"},onPinChange:{description:"Callback when pin state changes",action:"pinChanged"},expandMode:{control:"select",options:["hover","button","both"],description:"How the sidebar expands: hover (default), button only, or both"},toggleButtonPosition:{control:"select",options:["top","bottom"],description:"Position of the toggle button"},toggleButtonOffset:{control:"number",description:"Offset from the position (in pixels)"},toggleButtonSize:{control:"select",options:["small","large"],description:"Size of the toggle button: small (24px) or large (32px)"},toggleButtonIcon:{description:"Custom icon component for toggle button",control:!1},customLogoUrl:{control:"text",description:"URL for custom logo image"},logoAlignment:{control:"select",options:["left","center","right"],description:"Alignment of the logo"},logoPadding:{control:"text",description:"Custom padding for the logo (CSS padding value)"},showLabelsWhenCollapsed:{control:"boolean",description:"Whether to show menu item labels when sidebar is collapsed"},className:{description:"Additional CSS class",control:"text"}}},s=[{title:"MAIN MENU",items:[{id:"home",label:"Home",icon:e.jsx(i,{name:"Home",size:"medium"}),active:!0},{id:"about",label:"About Us",icon:e.jsx(i,{name:"Info",size:"medium"}),showIndicator:!0},{id:"services",label:"Services",icon:e.jsx(i,{name:"Settings",size:"medium"})},{id:"blog",label:"Blog",icon:e.jsx(i,{name:"Edit",size:"medium"})},{id:"portfolio",label:"Portfolio",icon:e.jsx(i,{name:"Visibility",size:"medium"})}]},{title:"SETTINGS",items:[{id:"profile",label:"Profile",icon:e.jsx(i,{name:"AccountCircle",size:"medium"})},{id:"preferences",label:"Preferences",icon:e.jsx(i,{name:"Tune",size:"medium"})}]}],n={initials:"AS",name:"Ajay Soni",subtitle:"Employee ID"},a={args:{groups:s,user:n},parameters:{layout:"fullscreen",docs:{description:{story:"Default collapsed sidebar. Hover to expand temporarily, or click the pin button to lock it in expanded state."},story:{inline:!0,iframeHeight:700},source:{transform:(oe,ee)=>{const{args:o}=ee,t=[];return o.isPinned&&t.push("isPinned={true}"),o.expandMode&&o.expandMode!=="hover"&&t.push(`expandMode="${o.expandMode}"`),o.toggleButtonPosition&&t.push(`toggleButtonPosition="${o.toggleButtonPosition}"`),o.toggleButtonOffset&&t.push(`toggleButtonOffset={${o.toggleButtonOffset}}`),o.toggleButtonSize&&o.toggleButtonSize!=="large"&&t.push(`toggleButtonSize="${o.toggleButtonSize}"`),o.customLogoUrl&&t.push(`customLogoUrl="${o.customLogoUrl}"`),o.logoAlignment&&o.logoAlignment!=="left"&&t.push(`logoAlignment="${o.logoAlignment}"`),o.logoPadding&&t.push(`logoPadding="${o.logoPadding}"`),`import { SideNavigation, Icon } from '@lean-ids/components';
 
 const navigationGroups = [
   {
@@ -144,7 +144,7 @@ const userProfile = {
   `+t.join(`
   `)+`
 `:""}
-/>`}}}}},a={args:{groups:[{title:"MAIN MENU",items:[{id:"home",label:"Home",icon:e.jsx(i,{name:"Home",size:"medium"}),active:!0},{id:"messages",label:"Messages",icon:e.jsx(i,{name:"Info",size:"medium"}),showIndicator:!0},{id:"alerts",label:"Alerts",icon:e.jsx(i,{name:"Warning",size:"medium"}),showIndicator:!0}]}],user:n},parameters:{layout:"fullscreen",docs:{description:{story:"Sidebar with notification indicators on menu items."},story:{inline:!1,iframeHeight:600},source:{code:`import { SideNavigation, Icon } from '@lean-ids/components';
+/>`}}}}},r={args:{groups:[{title:"MAIN MENU",items:[{id:"home",label:"Home",icon:e.jsx(i,{name:"Home",size:"medium"}),active:!0},{id:"messages",label:"Messages",icon:e.jsx(i,{name:"Info",size:"medium"}),showIndicator:!0},{id:"alerts",label:"Alerts",icon:e.jsx(i,{name:"Warning",size:"medium"}),showIndicator:!0}]}],user:n},parameters:{layout:"fullscreen",docs:{description:{story:"Sidebar with notification indicators on menu items."},story:{inline:!1,iframeHeight:600},source:{code:`import { SideNavigation, Icon } from '@lean-ids/components';
 
 const navigationGroups = [
   {
@@ -172,7 +172,7 @@ const navigationGroups = [
   },
 ];
 
-<SideNavigation groups={navigationGroups} user={userProfile} />`}}}},r={args:{groups:f},parameters:{layout:"fullscreen",docs:{description:{story:"Sidebar without user profile section."},story:{inline:!1,iframeHeight:600},source:{code:`import { SideNavigation, Icon } from '@lean-ids/components';
+<SideNavigation groups={navigationGroups} user={userProfile} />`}}}},l={args:{groups:s},parameters:{layout:"fullscreen",docs:{description:{story:"Sidebar without user profile section."},story:{inline:!1,iframeHeight:600},source:{code:`import { SideNavigation, Icon } from '@lean-ids/components';
 
 const navigationGroups = [
   {
@@ -194,7 +194,7 @@ const navigationGroups = [
 ];
 
 // No user prop provided
-<SideNavigation groups={navigationGroups} />`}}}},l={args:{groups:[{title:"NAVIGATION",items:[{id:"dashboard",label:"Dashboard",icon:e.jsx(i,{name:"Home",size:"medium"}),active:!0,onClick:()=>alert("Dashboard clicked!")},{id:"analytics",label:"Analytics",icon:e.jsx(i,{name:"Visibility",size:"medium"}),onClick:()=>alert("Analytics clicked!")},{id:"settings",label:"Settings",icon:e.jsx(i,{name:"Settings",size:"medium"}),onClick:()=>alert("Settings clicked!")}]}],user:n},parameters:{layout:"fullscreen",docs:{description:{story:"Sidebar with click handlers on menu items. Click any item to see the handler in action."},story:{inline:!1,iframeHeight:600},source:{code:`import { SideNavigation, Icon } from '@lean-ids/components';
+<SideNavigation groups={navigationGroups} />`}}}},c={args:{groups:[{title:"NAVIGATION",items:[{id:"dashboard",label:"Dashboard",icon:e.jsx(i,{name:"Home",size:"medium"}),active:!0,onClick:()=>alert("Dashboard clicked!")},{id:"analytics",label:"Analytics",icon:e.jsx(i,{name:"Visibility",size:"medium"}),onClick:()=>alert("Analytics clicked!")},{id:"settings",label:"Settings",icon:e.jsx(i,{name:"Settings",size:"medium"}),onClick:()=>alert("Settings clicked!")}]}],user:n},parameters:{layout:"fullscreen",docs:{description:{story:"Sidebar with click handlers on menu items. Click any item to see the handler in action."},story:{inline:!1,iframeHeight:600},source:{code:`import { SideNavigation, Icon } from '@lean-ids/components';
 
 const navigationGroups = [
   {
@@ -217,7 +217,7 @@ const navigationGroups = [
   },
 ];
 
-<SideNavigation groups={navigationGroups} user={userProfile} />`}}}},c={args:{groups:[{title:"MAIN",items:[{id:"home",label:"Home",icon:e.jsx(i,{name:"Home",size:"medium"}),active:!0},{id:"dashboard",label:"Dashboard",icon:e.jsx(i,{name:"Visibility",size:"medium"})}]},{title:"MANAGEMENT",items:[{id:"users",label:"Users",icon:e.jsx(i,{name:"AccountCircle",size:"medium"})},{id:"settings",label:"Settings",icon:e.jsx(i,{name:"Settings",size:"medium"})}]},{title:"SUPPORT",items:[{id:"help",label:"Help Center",icon:e.jsx(i,{name:"Info",size:"medium"})},{id:"feedback",label:"Feedback",icon:e.jsx(i,{name:"Edit",size:"medium"})}]}],user:n},parameters:{layout:"fullscreen",docs:{description:{story:"Sidebar with multiple navigation groups separated by dividers."},story:{inline:!1,iframeHeight:600},source:{code:`import { SideNavigation, Icon } from '@lean-ids/components';
+<SideNavigation groups={navigationGroups} user={userProfile} />`}}}},m={args:{groups:[{title:"MAIN",items:[{id:"home",label:"Home",icon:e.jsx(i,{name:"Home",size:"medium"}),active:!0},{id:"dashboard",label:"Dashboard",icon:e.jsx(i,{name:"Visibility",size:"medium"})}]},{title:"MANAGEMENT",items:[{id:"users",label:"Users",icon:e.jsx(i,{name:"AccountCircle",size:"medium"})},{id:"settings",label:"Settings",icon:e.jsx(i,{name:"Settings",size:"medium"})}]},{title:"SUPPORT",items:[{id:"help",label:"Help Center",icon:e.jsx(i,{name:"Info",size:"medium"})},{id:"feedback",label:"Feedback",icon:e.jsx(i,{name:"Edit",size:"medium"})}]}],user:n},parameters:{layout:"fullscreen",docs:{description:{story:"Sidebar with multiple navigation groups separated by dividers."},story:{inline:!1,iframeHeight:600},source:{code:`import { SideNavigation, Icon } from '@lean-ids/components';
 
 const navigationGroups = [
   {
@@ -236,7 +236,7 @@ const navigationGroups = [
   },
 ];
 
-<SideNavigation groups={navigationGroups} user={userProfile} />`}}}},m={args:{groups:[{title:"PAGES",items:[{id:"home",label:"Home",icon:e.jsx(i,{name:"Home",size:"medium"}),active:!1},{id:"about",label:"About",icon:e.jsx(i,{name:"Info",size:"medium"}),active:!0},{id:"contact",label:"Contact",icon:e.jsx(i,{name:"Edit",size:"medium"}),active:!1}]}],user:n},parameters:{layout:"fullscreen",docs:{description:{story:'Sidebar showing active state on the "About" menu item. Active items have a blue left border and background.'},story:{inline:!1,iframeHeight:600},source:{code:`import { SideNavigation, Icon } from '@lean-ids/components';
+<SideNavigation groups={navigationGroups} user={userProfile} />`}}}},d={args:{groups:[{title:"PAGES",items:[{id:"home",label:"Home",icon:e.jsx(i,{name:"Home",size:"medium"}),active:!1},{id:"about",label:"About",icon:e.jsx(i,{name:"Info",size:"medium"}),active:!0},{id:"contact",label:"Contact",icon:e.jsx(i,{name:"Edit",size:"medium"}),active:!1}]}],user:n},parameters:{layout:"fullscreen",docs:{description:{story:'Sidebar showing active state on the "About" menu item. Active items have a blue left border and background.'},story:{inline:!1,iframeHeight:600},source:{code:`import { SideNavigation, Icon } from '@lean-ids/components';
 import { useState } from 'react';
 
 function Navigation() {
@@ -265,7 +265,7 @@ function Navigation() {
   ];
 
   return <SideNavigation groups={navigationGroups} user={userProfile} />;
-}`}}}},d={args:{groups:f,user:n,isPinned:!0},parameters:{layout:"fullscreen",docs:{description:{story:"Sidebar in pinned state (locked at 236px width). The pin button is filled when pinned."},story:{inline:!1,iframeHeight:600},source:{code:`import { SideNavigation } from '@lean-ids/components';
+}`}}}},u={args:{groups:s,user:n,isPinned:!0},parameters:{layout:"fullscreen",docs:{description:{story:"Sidebar in pinned state (locked at 236px width). The pin button is filled when pinned."},story:{inline:!1,iframeHeight:600},source:{code:`import { SideNavigation } from '@lean-ids/components';
 import { useState } from 'react';
 
 function App() {
@@ -282,7 +282,7 @@ function App() {
       }}
     />
   );
-}`}}}},u={args:{groups:f,user:{initials:"JD",name:"John Doe",subtitle:"Admin User",avatarUrl:"https://i.pravatar.cc/150?img=12"}},parameters:{layout:"fullscreen",docs:{description:{story:"Sidebar with user profile including an avatar image."},story:{inline:!1,iframeHeight:600},source:{code:`import { SideNavigation } from '@lean-ids/components';
+}`}}}},p={args:{groups:s,user:{initials:"JD",name:"John Doe",subtitle:"Admin User",avatarUrl:"https://i.pravatar.cc/150?img=12"}},parameters:{layout:"fullscreen",docs:{description:{story:"Sidebar with user profile including an avatar image."},story:{inline:!1,iframeHeight:600},source:{code:`import { SideNavigation } from '@lean-ids/components';
 
 const userProfile = {
   initials: 'JD',
@@ -291,7 +291,7 @@ const userProfile = {
   avatarUrl: 'https://example.com/avatar.jpg', // Optional
 };
 
-<SideNavigation groups={navigationGroups} user={userProfile} />`}}}},p={args:{groups:[{title:"DASHBOARD",items:[{id:"overview",label:"Overview",icon:e.jsx(i,{name:"Home",size:"medium"}),active:!0},{id:"analytics",label:"Analytics",icon:e.jsx(i,{name:"Visibility",size:"medium"})},{id:"reports",label:"Reports",icon:e.jsx(i,{name:"Edit",size:"medium"})}]},{title:"CONTENT",items:[{id:"posts",label:"Posts",icon:e.jsx(i,{name:"Edit",size:"medium"})},{id:"pages",label:"Pages",icon:e.jsx(i,{name:"Info",size:"medium"})},{id:"media",label:"Media",icon:e.jsx(i,{name:"Visibility",size:"medium"})},{id:"comments",label:"Comments",icon:e.jsx(i,{name:"Info",size:"medium"})}]},{title:"USERS",items:[{id:"all-users",label:"All Users",icon:e.jsx(i,{name:"AccountCircle",size:"medium"})},{id:"add-user",label:"Add New",icon:e.jsx(i,{name:"Add",size:"medium"})},{id:"roles",label:"Roles",icon:e.jsx(i,{name:"Settings",size:"medium"})}]},{title:"SETTINGS",items:[{id:"general",label:"General",icon:e.jsx(i,{name:"Settings",size:"medium"})},{id:"security",label:"Security",icon:e.jsx(i,{name:"Lock",size:"medium"})},{id:"notifications",label:"Notifications",icon:e.jsx(i,{name:"Info",size:"medium"})},{id:"integrations",label:"Integrations",icon:e.jsx(i,{name:"Settings",size:"medium"})}]},{title:"TOOLS",items:[{id:"import",label:"Import",icon:e.jsx(i,{name:"Upload",size:"medium"})},{id:"export",label:"Export",icon:e.jsx(i,{name:"Download",size:"medium"})},{id:"backup",label:"Backup",icon:e.jsx(i,{name:"Save",size:"medium"})}]}],user:n},parameters:{layout:"fullscreen",docs:{description:{story:"Sidebar with many menu items demonstrating automatic scrolling when content overflows. The navigation area becomes scrollable while the user profile remains fixed at the bottom."},story:{inline:!1,iframeHeight:600},source:{code:`import { SideNavigation, Icon } from '@lean-ids/components';
+<SideNavigation groups={navigationGroups} user={userProfile} />`}}}},g={args:{groups:[{title:"DASHBOARD",items:[{id:"overview",label:"Overview",icon:e.jsx(i,{name:"Home",size:"medium"}),active:!0},{id:"analytics",label:"Analytics",icon:e.jsx(i,{name:"Visibility",size:"medium"})},{id:"reports",label:"Reports",icon:e.jsx(i,{name:"Edit",size:"medium"})}]},{title:"CONTENT",items:[{id:"posts",label:"Posts",icon:e.jsx(i,{name:"Edit",size:"medium"})},{id:"pages",label:"Pages",icon:e.jsx(i,{name:"Info",size:"medium"})},{id:"media",label:"Media",icon:e.jsx(i,{name:"Visibility",size:"medium"})},{id:"comments",label:"Comments",icon:e.jsx(i,{name:"Info",size:"medium"})}]},{title:"USERS",items:[{id:"all-users",label:"All Users",icon:e.jsx(i,{name:"AccountCircle",size:"medium"})},{id:"add-user",label:"Add New",icon:e.jsx(i,{name:"Add",size:"medium"})},{id:"roles",label:"Roles",icon:e.jsx(i,{name:"Settings",size:"medium"})}]},{title:"SETTINGS",items:[{id:"general",label:"General",icon:e.jsx(i,{name:"Settings",size:"medium"})},{id:"security",label:"Security",icon:e.jsx(i,{name:"Lock",size:"medium"})},{id:"notifications",label:"Notifications",icon:e.jsx(i,{name:"Info",size:"medium"})},{id:"integrations",label:"Integrations",icon:e.jsx(i,{name:"Settings",size:"medium"})}]},{title:"TOOLS",items:[{id:"import",label:"Import",icon:e.jsx(i,{name:"Upload",size:"medium"})},{id:"export",label:"Export",icon:e.jsx(i,{name:"Download",size:"medium"})},{id:"backup",label:"Backup",icon:e.jsx(i,{name:"Save",size:"medium"})}]}],user:n},parameters:{layout:"fullscreen",docs:{description:{story:"Sidebar with many menu items demonstrating automatic scrolling when content overflows. The navigation area becomes scrollable while the user profile remains fixed at the bottom."},story:{inline:!1,iframeHeight:600},source:{code:`import { SideNavigation, Icon } from '@lean-ids/components';
 
 const navigationGroups = [
   {
@@ -314,7 +314,7 @@ const navigationGroups = [
   // ... more groups
 ];
 
-<SideNavigation groups={navigationGroups} user={userProfile} />`}}}},g={args:{groups:[{title:"DASHBOARD",items:[{id:"overview",label:"Overview",icon:e.jsx(i,{name:"Home",size:"medium"}),active:!0},{id:"analytics",label:"Analytics",icon:e.jsx(i,{name:"Visibility",size:"medium"})}]},{title:"CONTENT",items:[{id:"posts",label:"Posts",icon:e.jsx(i,{name:"Edit",size:"medium"}),showIndicator:!0},{id:"media",label:"Media",icon:e.jsx(i,{name:"Visibility",size:"medium"})},{id:"comments",label:"Comments",icon:e.jsx(i,{name:"Info",size:"medium"}),showIndicator:!0}]},{title:"SETTINGS",items:[{id:"profile",label:"Profile",icon:e.jsx(i,{name:"AccountCircle",size:"medium"})},{id:"preferences",label:"Preferences",icon:e.jsx(i,{name:"Settings",size:"medium"})}]}],user:{...n,onClick:()=>console.log("User profile clicked")},expandMode:"both",toggleButtonPosition:"top",toggleButtonSize:"large",customLogoUrl:void 0,logoAlignment:"center"},parameters:{layout:"fullscreen",docs:{description:{story:"Complete example showing ALL features: multiple groups, active states, notification indicators, user profile with click handler, expand modes (hover + button), toggle button, custom logo support, and mouse events."},story:{inline:!0,iframeHeight:700},source:{code:`import { SideNavigation, Icon } from '@lean-ids/components';
+<SideNavigation groups={navigationGroups} user={userProfile} />`}}}},b={args:{groups:[{title:"DASHBOARD",items:[{id:"overview",label:"Overview",icon:e.jsx(i,{name:"Home",size:"medium"}),active:!0},{id:"analytics",label:"Analytics",icon:e.jsx(i,{name:"Visibility",size:"medium"})}]},{title:"CONTENT",items:[{id:"posts",label:"Posts",icon:e.jsx(i,{name:"Edit",size:"medium"}),showIndicator:!0},{id:"media",label:"Media",icon:e.jsx(i,{name:"Visibility",size:"medium"})},{id:"comments",label:"Comments",icon:e.jsx(i,{name:"Info",size:"medium"}),showIndicator:!0}]},{title:"SETTINGS",items:[{id:"profile",label:"Profile",icon:e.jsx(i,{name:"AccountCircle",size:"medium"})},{id:"preferences",label:"Preferences",icon:e.jsx(i,{name:"Settings",size:"medium"})}]}],user:{...n,onClick:()=>console.log("User profile clicked")},expandMode:"both",toggleButtonPosition:"top",toggleButtonSize:"large",customLogoUrl:void 0,logoAlignment:"center"},parameters:{layout:"fullscreen",docs:{description:{story:"Complete example showing ALL features: multiple groups, active states, notification indicators, user profile with click handler, expand modes (hover + button), toggle button, custom logo support, and mouse events."},story:{inline:!0,iframeHeight:700},source:{code:`import { SideNavigation, Icon } from '@lean-ids/components';
 import { useState } from 'react';
 
 function App() {
@@ -421,7 +421,7 @@ function App() {
       logoPadding="16px"
     />
   );
-}`}}}},b={args:{groups:[{title:"MAIN MENU",items:[{id:"home",label:"Home",icon:e.jsx(i,{name:"Home",size:"medium"}),active:!0},{id:"products",label:"Products",icon:e.jsx(i,{name:"ShoppingCart",size:"medium"}),children:[{id:"products-all",label:"All Products"},{id:"products-categories",label:"Categories",children:[{id:"cat-electronics",label:"Electronics"},{id:"cat-clothing",label:"Clothing"},{id:"cat-food",label:"Food & Beverages"}]},{id:"products-featured",label:"Featured Items"}]},{id:"orders",label:"Orders",icon:e.jsx(i,{name:"Receipt",size:"medium"}),showIndicator:!0,children:[{id:"orders-pending",label:"Pending Orders"},{id:"orders-completed",label:"Completed Orders"},{id:"orders-cancelled",label:"Cancelled Orders"}]}]},{title:"REPORTS",items:[{id:"analytics",label:"Analytics",icon:e.jsx(i,{name:"Visibility",size:"medium"}),children:[{id:"analytics-sales",label:"Sales Report"},{id:"analytics-traffic",label:"Traffic Report",children:[{id:"traffic-daily",label:"Daily Traffic"},{id:"traffic-monthly",label:"Monthly Traffic"}]},{id:"analytics-customers",label:"Customer Report"}]}]},{title:"SETTINGS",items:[{id:"settings",label:"Settings",icon:e.jsx(i,{name:"Settings",size:"medium"}),children:[{id:"settings-general",label:"General"},{id:"settings-security",label:"Security"},{id:"settings-notifications",label:"Notifications"}]}]}],user:n},parameters:{layout:"fullscreen",docs:{description:{story:"Example showing nested menu functionality. Hover over menu items with arrows to see nested submenus appear on the right. Supports multiple levels of nesting."},story:{inline:!1,iframeHeight:600},source:{code:`import { SideNavigation, Icon } from '@lean-ids/components';
+}`}}}},f={args:{groups:[{title:"MAIN MENU",items:[{id:"home",label:"Home",icon:e.jsx(i,{name:"Home",size:"medium"}),active:!0},{id:"products",label:"Products",icon:e.jsx(i,{name:"ShoppingCart",size:"medium"}),children:[{id:"products-all",label:"All Products"},{id:"products-categories",label:"Categories",children:[{id:"cat-electronics",label:"Electronics"},{id:"cat-clothing",label:"Clothing"},{id:"cat-food",label:"Food & Beverages"}]},{id:"products-featured",label:"Featured Items"}]},{id:"orders",label:"Orders",icon:e.jsx(i,{name:"Receipt",size:"medium"}),showIndicator:!0,children:[{id:"orders-pending",label:"Pending Orders"},{id:"orders-completed",label:"Completed Orders"},{id:"orders-cancelled",label:"Cancelled Orders"}]}]},{title:"REPORTS",items:[{id:"analytics",label:"Analytics",icon:e.jsx(i,{name:"Visibility",size:"medium"}),children:[{id:"analytics-sales",label:"Sales Report"},{id:"analytics-traffic",label:"Traffic Report",children:[{id:"traffic-daily",label:"Daily Traffic"},{id:"traffic-monthly",label:"Monthly Traffic"}]},{id:"analytics-customers",label:"Customer Report"}]}]},{title:"SETTINGS",items:[{id:"settings",label:"Settings",icon:e.jsx(i,{name:"Settings",size:"medium"}),children:[{id:"settings-general",label:"General"},{id:"settings-security",label:"Security"},{id:"settings-notifications",label:"Notifications"}]}]}],user:n},parameters:{layout:"fullscreen",docs:{description:{story:"Example showing nested menu functionality. Hover over menu items with arrows to see nested submenus appear on the right. Supports multiple levels of nesting."},story:{inline:!1,iframeHeight:600},source:{code:`import { SideNavigation, Icon } from '@lean-ids/components';
 
 function App() {
   const navigationGroups = [
@@ -475,7 +475,53 @@ function App() {
       user={userProfile}
     />
   );
-}`}}}};var v,h,I;s.parameters={...s.parameters,docs:{...(v=s.parameters)==null?void 0:v.docs,source:{originalSource:`{
+}`}}}},v={args:{groups:s,user:n,customLogoUrl:"https://via.placeholder.com/150x40/0066CC/FFFFFF?text=My+Logo",logoAlignment:"center",logoPadding:"16px",expandMode:"both"},parameters:{layout:"fullscreen",docs:{description:{story:`**Custom Logo Demo** - Shows how to use your own logo instead of the default Carelon/Elevance branding.
+
+**Important Notes:**
+- The same logo is used in **both collapsed and expanded states**
+- The same logo is used in **both dark and light modes**
+- If you need different logos for collapsed/expanded, provide a square icon that works in both states
+- Recommended logo size: 120-150px wide for expanded, works as icon when collapsed
+
+**Try it:** Use the controls below to change the \`customLogoUrl\` to your own logo URL!`},story:{inline:!0,iframeHeight:700},source:{code:`import { SideNavigation } from '@lean-ids/components';
+
+const navigationGroups = [
+  {
+    title: 'MAIN MENU',
+    items: [
+      {
+        id: 'home',
+        label: 'Home',
+        icon: <Icon name="Home" size="medium" />,
+        active: true,
+      },
+      {
+        id: 'about',
+        label: 'About',
+        icon: <Icon name="Info" size="medium" />,
+      },
+    ],
+  },
+];
+
+const userProfile = {
+  initials: 'AS',
+  name: 'Ajay Soni',
+  subtitle: 'Employee ID',
+};
+
+<SideNavigation
+  groups={navigationGroups}
+  user={userProfile}
+  
+  // Custom logo configuration
+  customLogoUrl="https://your-domain.com/logo.png"
+  logoAlignment="center"
+  logoPadding="16px"
+  
+  // Works in all states
+  expandMode="both"  // Try collapsing - same logo appears!
+/>`}}}};var h,I,S;a.parameters={...a.parameters,docs:{...(h=a.parameters)==null?void 0:h.docs,source:{originalSource:`{
   args: {
     groups: sampleGroups,
     user: sampleUser
@@ -540,7 +586,7 @@ const userProfile = {
       }
     }
   }
-}`,...(I=(h=s.parameters)==null?void 0:h.docs)==null?void 0:I.source}}};var S,y,A;a.parameters={...a.parameters,docs:{...(S=a.parameters)==null?void 0:S.docs,source:{originalSource:`{
+}`,...(S=(I=a.parameters)==null?void 0:I.docs)==null?void 0:S.source}}};var y,A,z;r.parameters={...r.parameters,docs:{...(y=r.parameters)==null?void 0:y.docs,source:{originalSource:`{
   args: {
     groups: [{
       title: 'MAIN MENU',
@@ -606,7 +652,7 @@ const navigationGroups = [
       }
     }
   }
-}`,...(A=(y=a.parameters)==null?void 0:y.docs)==null?void 0:A.source}}};var z,N,P;r.parameters={...r.parameters,docs:{...(z=r.parameters)==null?void 0:z.docs,source:{originalSource:`{
+}`,...(z=(A=r.parameters)==null?void 0:A.docs)==null?void 0:z.source}}};var N,P,x;l.parameters={...l.parameters,docs:{...(N=l.parameters)==null?void 0:N.docs,source:{originalSource:`{
   args: {
     groups: sampleGroups
   },
@@ -647,7 +693,7 @@ const navigationGroups = [
       }
     }
   }
-}`,...(P=(N=r.parameters)==null?void 0:N.docs)==null?void 0:P.source}}};var x,C,w;l.parameters={...l.parameters,docs:{...(x=l.parameters)==null?void 0:x.docs,source:{originalSource:`{
+}`,...(x=(P=l.parameters)==null?void 0:P.docs)==null?void 0:x.source}}};var w,C,H;c.parameters={...c.parameters,docs:{...(w=c.parameters)==null?void 0:w.docs,source:{originalSource:`{
   args: {
     groups: [{
       title: 'NAVIGATION',
@@ -709,7 +755,7 @@ const navigationGroups = [
       }
     }
   }
-}`,...(w=(C=l.parameters)==null?void 0:C.docs)==null?void 0:w.source}}};var H,E,M;c.parameters={...c.parameters,docs:{...(H=c.parameters)==null?void 0:H.docs,source:{originalSource:`{
+}`,...(H=(C=c.parameters)==null?void 0:C.docs)==null?void 0:H.source}}};var E,M,k;m.parameters={...m.parameters,docs:{...(E=m.parameters)==null?void 0:E.docs,source:{originalSource:`{
   args: {
     groups: [{
       title: 'MAIN',
@@ -782,7 +828,7 @@ const navigationGroups = [
       }
     }
   }
-}`,...(M=(E=c.parameters)==null?void 0:E.docs)==null?void 0:M.source}}};var k,G,U;m.parameters={...m.parameters,docs:{...(k=m.parameters)==null?void 0:k.docs,source:{originalSource:`{
+}`,...(k=(M=m.parameters)==null?void 0:M.docs)==null?void 0:k.source}}};var U,G,j;d.parameters={...d.parameters,docs:{...(U=d.parameters)==null?void 0:U.docs,source:{originalSource:`{
   args: {
     groups: [{
       title: 'PAGES',
@@ -849,7 +895,7 @@ function Navigation() {
       }
     }
   }
-}`,...(U=(G=m.parameters)==null?void 0:G.docs)==null?void 0:U.source}}};var j,O,T;d.parameters={...d.parameters,docs:{...(j=d.parameters)==null?void 0:j.docs,source:{originalSource:`{
+}`,...(j=(G=d.parameters)==null?void 0:G.docs)==null?void 0:j.source}}};var T,O,D;u.parameters={...u.parameters,docs:{...(T=u.parameters)==null?void 0:T.docs,source:{originalSource:`{
   args: {
     groups: sampleGroups,
     user: sampleUser,
@@ -887,7 +933,7 @@ function App() {
       }
     }
   }
-}`,...(T=(O=d.parameters)==null?void 0:O.docs)==null?void 0:T.source}}};var D,B,R;u.parameters={...u.parameters,docs:{...(D=u.parameters)==null?void 0:D.docs,source:{originalSource:`{
+}`,...(D=(O=u.parameters)==null?void 0:O.docs)==null?void 0:D.source}}};var B,L,R;p.parameters={...p.parameters,docs:{...(B=p.parameters)==null?void 0:B.docs,source:{originalSource:`{
   args: {
     groups: sampleGroups,
     user: {
@@ -921,7 +967,7 @@ const userProfile = {
       }
     }
   }
-}`,...(R=(B=u.parameters)==null?void 0:B.docs)==null?void 0:R.source}}};var V,L,W;p.parameters={...p.parameters,docs:{...(V=p.parameters)==null?void 0:V.docs,source:{originalSource:`{
+}`,...(R=(L=p.parameters)==null?void 0:L.docs)==null?void 0:R.source}}};var V,W,F;g.parameters={...g.parameters,docs:{...(V=g.parameters)==null?void 0:V.docs,source:{originalSource:`{
   args: {
     groups: [{
       title: 'DASHBOARD',
@@ -1048,7 +1094,7 @@ const navigationGroups = [
       }
     }
   }
-}`,...(W=(L=p.parameters)==null?void 0:L.docs)==null?void 0:W.source}}};var $,J,F;g.parameters={...g.parameters,docs:{...($=g.parameters)==null?void 0:$.docs,source:{originalSource:`{
+}`,...(F=(W=g.parameters)==null?void 0:W.docs)==null?void 0:F.source}}};var $,J,_;b.parameters={...b.parameters,docs:{...($=b.parameters)==null?void 0:$.docs,source:{originalSource:`{
   args: {
     groups: [{
       title: 'DASHBOARD',
@@ -1223,7 +1269,7 @@ function App() {
       }
     }
   }
-}`,...(F=(J=g.parameters)==null?void 0:J.docs)==null?void 0:F.source}}};var _,q,K;b.parameters={...b.parameters,docs:{...(_=b.parameters)==null?void 0:_.docs,source:{originalSource:`{
+}`,...(_=(J=b.parameters)==null?void 0:J.docs)==null?void 0:_.source}}};var q,K,Q;f.parameters={...f.parameters,docs:{...(q=f.parameters)==null?void 0:q.docs,source:{originalSource:`{
   args: {
     groups: [{
       title: 'MAIN MENU',
@@ -1385,4 +1431,74 @@ function App() {
       }
     }
   }
-}`,...(K=(q=b.parameters)==null?void 0:q.docs)==null?void 0:K.source}}};const me=["Default","WithNotifications","WithoutUser","WithClickHandlers","MultipleGroups","WithActiveState","PinnedState","WithAvatarImage","WithManyItems","CompleteExample","WithNestedMenus"];export{g as CompleteExample,s as Default,c as MultipleGroups,d as PinnedState,m as WithActiveState,u as WithAvatarImage,l as WithClickHandlers,p as WithManyItems,b as WithNestedMenus,a as WithNotifications,r as WithoutUser,me as __namedExportsOrder,ce as default};
+}`,...(Q=(K=f.parameters)==null?void 0:K.docs)==null?void 0:Q.source}}};var X,Y,Z;v.parameters={...v.parameters,docs:{...(X=v.parameters)==null?void 0:X.docs,source:{originalSource:`{
+  args: {
+    groups: sampleGroups,
+    user: sampleUser,
+    customLogoUrl: 'https://via.placeholder.com/150x40/0066CC/FFFFFF?text=My+Logo',
+    logoAlignment: 'center',
+    logoPadding: '16px',
+    expandMode: 'both'
+  },
+  parameters: {
+    layout: 'fullscreen',
+    docs: {
+      description: {
+        story: \`**Custom Logo Demo** - Shows how to use your own logo instead of the default Carelon/Elevance branding.
+
+**Important Notes:**
+- The same logo is used in **both collapsed and expanded states**
+- The same logo is used in **both dark and light modes**
+- If you need different logos for collapsed/expanded, provide a square icon that works in both states
+- Recommended logo size: 120-150px wide for expanded, works as icon when collapsed
+
+**Try it:** Use the controls below to change the \\\`customLogoUrl\\\` to your own logo URL!\`
+      },
+      story: {
+        inline: true,
+        iframeHeight: 700
+      },
+      source: {
+        code: \`import { SideNavigation } from '@lean-ids/components';
+
+const navigationGroups = [
+  {
+    title: 'MAIN MENU',
+    items: [
+      {
+        id: 'home',
+        label: 'Home',
+        icon: <Icon name="Home" size="medium" />,
+        active: true,
+      },
+      {
+        id: 'about',
+        label: 'About',
+        icon: <Icon name="Info" size="medium" />,
+      },
+    ],
+  },
+];
+
+const userProfile = {
+  initials: 'AS',
+  name: 'Ajay Soni',
+  subtitle: 'Employee ID',
+};
+
+<SideNavigation
+  groups={navigationGroups}
+  user={userProfile}
+  
+  // Custom logo configuration
+  customLogoUrl="https://your-domain.com/logo.png"
+  logoAlignment="center"
+  logoPadding="16px"
+  
+  // Works in all states
+  expandMode="both"  // Try collapsing - same logo appears!
+/>\`
+      }
+    }
+  }
+}`,...(Z=(Y=v.parameters)==null?void 0:Y.docs)==null?void 0:Z.source}}};const ge=["Default","WithNotifications","WithoutUser","WithClickHandlers","MultipleGroups","WithActiveState","PinnedState","WithAvatarImage","WithManyItems","CompleteExample","WithNestedMenus","CustomLogo"];export{b as CompleteExample,v as CustomLogo,a as Default,m as MultipleGroups,u as PinnedState,d as WithActiveState,p as WithAvatarImage,c as WithClickHandlers,g as WithManyItems,f as WithNestedMenus,r as WithNotifications,l as WithoutUser,ge as __namedExportsOrder,pe as default};

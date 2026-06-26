@@ -1,4 +1,4 @@
-import{j as m}from"./jsx-runtime-DSvmvvsx.js";import{T as b}from"./TopHeader-D8H5tFj4.js";import{I as i}from"./Icon-BytZhcyh.js";import"./index-B0WjJBI_.js";import"./_commonjsHelpers-CqkleIqs.js";import"./styled-components.browser.esm-BIi91Tbq.js";import"./Brand-D2_m1Vnv.js";import"./MenuItem-qyRq59Mo.js";import"./Avatar-BtdRwqdw.js";const x={title:"Components/TopHeader",component:b,parameters:{layout:"fullscreen",docs:{description:{component:`A horizontal navigation header with branding, app name, menu items, and user avatar.
+import{j as m}from"./jsx-runtime-DSvmvvsx.js";import{T as y}from"./TopHeader-CP-oGfrE.js";import{I as u}from"./Icon-BytZhcyh.js";import"./index-B0WjJBI_.js";import"./_commonjsHelpers-CqkleIqs.js";import"./styled-components.browser.esm-BIi91Tbq.js";import"./Brand-D2_m1Vnv.js";import"./MenuItem-DpIAPb1N.js";import"./Avatar-BtdRwqdw.js";const j={title:"Components/TopHeader",component:y,parameters:{layout:"fullscreen",docs:{description:{component:`A horizontal navigation header with branding, app name, menu items, and user avatar.
 
 ## Features
 
@@ -87,7 +87,7 @@ const menuItems = [
 | \`showAvatar\` | boolean | true | Show user avatar |
 | \`menuItems\` | MenuItem[] | [] | Navigation menu items |
 | \`userInitials\` | string | - | User initials for avatar |
-| \`avatarUrl\` | string | - | User avatar image URL |`}}},tags:["autodocs"],argTypes:{mode:{control:"radio",options:["dark","light"],description:"Color mode"}}},t=[{id:"home",label:"Home",icon:m.jsx(i,{name:"Home",size:"small"}),active:!0},{id:"about",label:"About",icon:m.jsx(i,{name:"Info",size:"small"}),showIndicator:!0}],e={args:{mode:"dark",appName:"Product Name",showLogo:!0,showAppName:!0,showDivider:!0,showMenuItems:!0,showAvatar:!0,menuItems:t,userInitials:"AS"},parameters:{layout:"fullscreen",docs:{description:{story:"Default dark mode header with all features enabled."},story:{inline:!1,iframeHeight:200},source:{code:`import { TopHeader, Icon } from '@lean-ids/components';
+| \`avatarUrl\` | string | - | User avatar image URL |`}}},tags:["autodocs"],argTypes:{mode:{control:"radio",options:["dark","light"],description:"Color mode"},appName:{control:"text",description:"Application name"},showLogo:{control:"boolean",description:"Whether to show brand logo"},showAppName:{control:"boolean",description:"Whether to show app name"},showDivider:{control:"boolean",description:"Whether to show divider between logo and app name"},showMenuItems:{control:"boolean",description:"Whether to show menu items"},showAvatar:{control:"boolean",description:"Whether to show user avatar"},menuItems:{control:"object",description:"Navigation menu items"},userInitials:{control:"text",description:"User initials for avatar"},userAvatarUrl:{control:"text",description:"User avatar image URL"},customLogoUrl:{control:"text",description:"Custom logo URL"},leftOffset:{control:"number",description:"Left offset in pixels (used when sidebar is present)"},onAvatarClick:{description:"Click handler for user avatar",action:"avatarClicked"},className:{control:"text",description:"Additional CSS class"}}},i=[{id:"home",label:"Home",icon:m.jsx(u,{name:"Home",size:"small"}),active:!0},{id:"about",label:"About",icon:m.jsx(u,{name:"Info",size:"small"}),showIndicator:!0}],s={args:{mode:"dark",appName:"Product Name",showLogo:!0,showAppName:!0,showDivider:!0,showMenuItems:!0,showAvatar:!0,menuItems:i,userInitials:"AS"},parameters:{layout:"fullscreen",docs:{description:{story:"Default dark mode header with all features enabled. Use controls to customize the header."},story:{inline:!0,iframeHeight:200},source:{transform:(S,M)=>{const{args:e}=M,o=[];return e.mode&&e.mode!=="dark"&&o.push(`mode="${e.mode}"`),e.appName&&o.push(`appName="${e.appName}"`),e.showLogo===!1&&o.push("showLogo={false}"),e.showAppName===!1&&o.push("showAppName={false}"),e.showDivider===!1&&o.push("showDivider={false}"),e.showMenuItems===!1&&o.push("showMenuItems={false}"),e.showAvatar===!1&&o.push("showAvatar={false}"),e.userInitials&&o.push(`userInitials="${e.userInitials}"`),e.userAvatarUrl&&o.push(`userAvatarUrl="${e.userAvatarUrl}"`),e.customLogoUrl&&o.push(`customLogoUrl="${e.customLogoUrl}"`),e.leftOffset&&o.push(`leftOffset={${e.leftOffset}}`),`import { TopHeader, Icon } from '@lean-ids/components';
 
 const menuItems = [
   {
@@ -104,17 +104,11 @@ const menuItems = [
   },
 ];
 
-<TopHeader
-  mode="dark"
-  appName="Product Name"
-  showLogo={true}
-  showAppName={true}
-  showDivider={true}
-  showMenuItems={true}
-  showAvatar={true}
-  menuItems={menuItems}
-  userInitials="AS"
-/>`}}}},o={args:{mode:"light",appName:"Product Name",showLogo:!0,showAppName:!0,showDivider:!0,showMenuItems:!0,showAvatar:!0,menuItems:t,userInitials:"AS"},parameters:{layout:"fullscreen",docs:{description:{story:"Light mode variant with white background."},story:{inline:!1,iframeHeight:200},source:{code:`import { TopHeader, Icon } from '@lean-ids/components';
+<TopHeader${o.length>0?`
+  `+o.join(`
+  `)+`
+`:""}  menuItems={menuItems}
+/>`}}}}},a={args:{mode:"light",appName:"Product Name",showLogo:!0,showAppName:!0,showDivider:!0,showMenuItems:!0,showAvatar:!0,menuItems:i,userInitials:"AS"},parameters:{layout:"fullscreen",docs:{description:{story:"Light mode variant with white background."},story:{inline:!1,iframeHeight:200},source:{code:`import { TopHeader, Icon } from '@lean-ids/components';
 
 const menuItems = [
   {
@@ -141,7 +135,7 @@ const menuItems = [
   showAvatar={true}
   menuItems={menuItems}
   userInitials="AS"
-/>`}}}},a={args:{mode:"dark",appName:"Product Name",showLogo:!1,showAppName:!0,showDivider:!1,showMenuItems:!0,showAvatar:!0,menuItems:t,userInitials:"AS"},parameters:{layout:"fullscreen",docs:{description:{story:"Header without brand logo, showing only app name."},story:{inline:!1,iframeHeight:200},source:{code:`import { TopHeader, Icon } from '@lean-ids/components';
+/>`}}}},r={args:{mode:"dark",appName:"Product Name",showLogo:!1,showAppName:!0,showDivider:!1,showMenuItems:!0,showAvatar:!0,menuItems:i,userInitials:"AS"},parameters:{layout:"fullscreen",docs:{description:{story:"Header without brand logo, showing only app name."},story:{inline:!1,iframeHeight:200},source:{code:`import { TopHeader, Icon } from '@lean-ids/components';
 
 <TopHeader
   mode="dark"
@@ -153,7 +147,7 @@ const menuItems = [
   showAvatar={true}
   menuItems={menuItems}
   userInitials="AS"
-/>`}}}},s={args:{mode:"dark",appName:"Product Name",showLogo:!0,showAppName:!0,showDivider:!0,showMenuItems:!1,showAvatar:!0,userInitials:"AS"},parameters:{layout:"fullscreen",docs:{description:{story:"Header without navigation menu items."},story:{inline:!1,iframeHeight:200},source:{code:`import { TopHeader } from '@lean-ids/components';
+/>`}}}},t={args:{mode:"dark",appName:"Product Name",showLogo:!0,showAppName:!0,showDivider:!0,showMenuItems:!1,showAvatar:!0,userInitials:"AS"},parameters:{layout:"fullscreen",docs:{description:{story:"Header without navigation menu items."},story:{inline:!1,iframeHeight:200},source:{code:`import { TopHeader } from '@lean-ids/components';
 
 <TopHeader
   mode="dark"
@@ -164,7 +158,7 @@ const menuItems = [
   showMenuItems={false}
   showAvatar={true}
   userInitials="AS"
-/>`}}}},r={args:{mode:"dark",appName:"Product Name",showLogo:!0,showAppName:!0,showDivider:!0,showMenuItems:!1,showAvatar:!1},parameters:{layout:"fullscreen",docs:{description:{story:"Minimal header with just logo and app name, no menu items or avatar."},story:{inline:!1,iframeHeight:200},source:{code:`import { TopHeader } from '@lean-ids/components';
+/>`}}}},n={args:{mode:"dark",appName:"Product Name",showLogo:!0,showAppName:!0,showDivider:!0,showMenuItems:!1,showAvatar:!1},parameters:{layout:"fullscreen",docs:{description:{story:"Minimal header with just logo and app name, no menu items or avatar."},story:{inline:!1,iframeHeight:200},source:{code:`import { TopHeader } from '@lean-ids/components';
 
 <TopHeader
   mode="dark"
@@ -174,7 +168,7 @@ const menuItems = [
   showDivider={true}
   showMenuItems={false}
   showAvatar={false}
-/>`}}}};var n,u,d;e.parameters={...e.parameters,docs:{...(n=e.parameters)==null?void 0:n.docs,source:{originalSource:`{
+/>`}}}};var p,l,d;s.parameters={...s.parameters,docs:{...(p=s.parameters)==null?void 0:p.docs,source:{originalSource:`{
   args: {
     mode: 'dark',
     appName: 'Product Name',
@@ -190,14 +184,31 @@ const menuItems = [
     layout: 'fullscreen',
     docs: {
       description: {
-        story: 'Default dark mode header with all features enabled.'
+        story: 'Default dark mode header with all features enabled. Use controls to customize the header.'
       },
       story: {
-        inline: false,
+        inline: true,
         iframeHeight: 200
       },
       source: {
-        code: \`import { TopHeader, Icon } from '@lean-ids/components';
+        transform: (_code: string, storyContext: any) => {
+          const {
+            args
+          } = storyContext;
+          const props = [];
+          if (args.mode && args.mode !== 'dark') props.push(\`mode="\${args.mode}"\`);
+          if (args.appName) props.push(\`appName="\${args.appName}"\`);
+          if (args.showLogo === false) props.push('showLogo={false}');
+          if (args.showAppName === false) props.push('showAppName={false}');
+          if (args.showDivider === false) props.push('showDivider={false}');
+          if (args.showMenuItems === false) props.push('showMenuItems={false}');
+          if (args.showAvatar === false) props.push('showAvatar={false}');
+          if (args.userInitials) props.push(\`userInitials="\${args.userInitials}"\`);
+          if (args.userAvatarUrl) props.push(\`userAvatarUrl="\${args.userAvatarUrl}"\`);
+          if (args.customLogoUrl) props.push(\`customLogoUrl="\${args.customLogoUrl}"\`);
+          if (args.leftOffset) props.push(\`leftOffset={\${args.leftOffset}}\`);
+          const propsString = props.length > 0 ? '\\n  ' + props.join('\\n  ') + '\\n' : '';
+          return \`import { TopHeader, Icon } from '@lean-ids/components';
 
 const menuItems = [
   {
@@ -214,21 +225,13 @@ const menuItems = [
   },
 ];
 
-<TopHeader
-  mode="dark"
-  appName="Product Name"
-  showLogo={true}
-  showAppName={true}
-  showDivider={true}
-  showMenuItems={true}
-  showAvatar={true}
-  menuItems={menuItems}
-  userInitials="AS"
-/>\`
+<TopHeader\${propsString}  menuItems={menuItems}
+/>\`;
+        }
       }
     }
   }
-}`,...(d=(u=e.parameters)==null?void 0:u.docs)==null?void 0:d.source}}};var p,l,c;o.parameters={...o.parameters,docs:{...(p=o.parameters)==null?void 0:p.docs,source:{originalSource:`{
+}`,...(d=(l=s.parameters)==null?void 0:l.docs)==null?void 0:d.source}}};var c,h,w;a.parameters={...a.parameters,docs:{...(c=a.parameters)==null?void 0:c.docs,source:{originalSource:`{
   args: {
     mode: 'light',
     appName: 'Product Name',
@@ -282,7 +285,7 @@ const menuItems = [
       }
     }
   }
-}`,...(c=(l=o.parameters)==null?void 0:l.docs)==null?void 0:c.source}}};var h,w,I;a.parameters={...a.parameters,docs:{...(h=a.parameters)==null?void 0:h.docs,source:{originalSource:`{
+}`,...(w=(h=a.parameters)==null?void 0:h.docs)==null?void 0:w.source}}};var f,g,I;r.parameters={...r.parameters,docs:{...(f=r.parameters)==null?void 0:f.docs,source:{originalSource:`{
   args: {
     mode: 'dark',
     appName: 'Product Name',
@@ -321,7 +324,7 @@ const menuItems = [
       }
     }
   }
-}`,...(I=(w=a.parameters)==null?void 0:w.docs)==null?void 0:I.source}}};var g,f,A;s.parameters={...s.parameters,docs:{...(g=s.parameters)==null?void 0:g.docs,source:{originalSource:`{
+}`,...(I=(g=r.parameters)==null?void 0:g.docs)==null?void 0:I.source}}};var v,A,N;t.parameters={...t.parameters,docs:{...(v=t.parameters)==null?void 0:v.docs,source:{originalSource:`{
   args: {
     mode: 'dark',
     appName: 'Product Name',
@@ -358,7 +361,7 @@ const menuItems = [
       }
     }
   }
-}`,...(A=(f=s.parameters)==null?void 0:f.docs)==null?void 0:A.source}}};var v,N,H;r.parameters={...r.parameters,docs:{...(v=r.parameters)==null?void 0:v.docs,source:{originalSource:`{
+}`,...(N=(A=t.parameters)==null?void 0:A.docs)==null?void 0:N.source}}};var H,b,L;n.parameters={...n.parameters,docs:{...(H=n.parameters)==null?void 0:H.docs,source:{originalSource:`{
   args: {
     mode: 'dark',
     appName: 'Product Name',
@@ -393,4 +396,4 @@ const menuItems = [
       }
     }
   }
-}`,...(H=(N=r.parameters)==null?void 0:N.docs)==null?void 0:H.source}}};const j=["DarkMode","LightMode","WithoutLogo","WithoutMenuItems","MinimalHeader"];export{e as DarkMode,o as LightMode,r as MinimalHeader,a as WithoutLogo,s as WithoutMenuItems,j as __namedExportsOrder,x as default};
+}`,...(L=(b=n.parameters)==null?void 0:b.docs)==null?void 0:L.source}}};const O=["DarkMode","LightMode","WithoutLogo","WithoutMenuItems","MinimalHeader"];export{s as DarkMode,a as LightMode,n as MinimalHeader,r as WithoutLogo,t as WithoutMenuItems,O as __namedExportsOrder,j as default};

@@ -1,4 +1,4 @@
-import{j as e}from"./jsx-runtime-DSvmvvsx.js";import{P as ae}from"./PageLayout-Pe5Btp92.js";import"./index-B0WjJBI_.js";import"./_commonjsHelpers-CqkleIqs.js";import"./styled-components.browser.esm-BIi91Tbq.js";import"./TopHeader-D8H5tFj4.js";import"./Brand-D2_m1Vnv.js";import"./MenuItem-qyRq59Mo.js";import"./Avatar-BtdRwqdw.js";import"./SideNavigation-Aa177t46.js";import"./Breadcrumb-DEF5sgBW.js";import"./Footer-BmRSLCud.js";const n=()=>e.jsx("svg",{width:"16",height:"16",viewBox:"0 0 16 16",fill:"currentColor",children:e.jsx("path",{d:"M8 0L10 6H16L11 10L13 16L8 12L3 16L5 10L0 6H6L8 0Z"})}),me={title:"Templates/PageLayout",component:ae,parameters:{layout:"fullscreen",docs:{description:{component:`
+import{j as e}from"./jsx-runtime-DSvmvvsx.js";import{P as X}from"./PageLayout-c2ehZV9a.js";import"./index-B0WjJBI_.js";import"./_commonjsHelpers-CqkleIqs.js";import"./styled-components.browser.esm-BIi91Tbq.js";import"./TopHeader-CP-oGfrE.js";import"./Brand-D2_m1Vnv.js";import"./MenuItem-DpIAPb1N.js";import"./Avatar-BtdRwqdw.js";import"./SideNavigation-CAxgutlO.js";import"./Breadcrumb-DEF5sgBW.js";import"./Footer-BmRSLCud.js";const n=()=>e.jsx("svg",{width:"16",height:"16",viewBox:"0 0 16 16",fill:"currentColor",children:e.jsx("path",{d:"M8 0L10 6H16L11 10L13 16L8 12L3 16L5 10L0 6H6L8 0Z"})}),ce={title:"Templates/PageLayout",component:X,parameters:{layout:"fullscreen",docs:{description:{component:`
 # Page Layout Templates
 
 Three vanilla page templates for building consistent layouts in Lean IDS applications.
@@ -144,7 +144,7 @@ When using **both navigations** (topbar-sidebar):
 | Sidebar not expanding | Wrong variant | Use \`variant="topbar-sidebar"\` or \`"sidebar-only"\` |
 | TopBar over sidebar | Old version | Update to v1.5.0+ with z-index fix |
 | Sidebar not hovering over TopBar | Z-index issue | Ensure using v1.5.0+ (sidebar z-index: 101) |
-        `}}},tags:["autodocs"]},p=()=>e.jsxs("div",{style:{padding:"24px",backgroundColor:"white",borderRadius:"8px",minHeight:"400px"},children:[e.jsx("h2",{style:{marginTop:0},children:"Main Content Area"}),e.jsx("p",{children:"This is where your page content goes. You can add any components here:"}),e.jsxs("ul",{children:[e.jsx("li",{children:"Cards and panels"}),e.jsx("li",{children:"Forms and inputs"}),e.jsx("li",{children:"Tables and data grids"}),e.jsx("li",{children:"Charts and visualizations"}),e.jsx("li",{children:"Any custom components"})]}),e.jsx("p",{children:"The content area automatically fills the remaining space between the header/navigation and footer."})]}),t={args:{variant:"topbar-only",pageTitle:"Dashboard",pageDescription:"Overview of your application metrics and data",breadcrumbs:[{label:"Home",href:"/",isActive:!1},{label:"Dashboard",isActive:!0}],topHeader:{appName:"Product Name",showLogo:!0,menuItems:[{id:"1",label:"Home",icon:e.jsx(n,{}),active:!0},{id:"2",label:"Reports",icon:e.jsx(n,{}),active:!1},{id:"3",label:"Settings",icon:e.jsx(n,{}),showIndicator:!0}],userInitials:"AS"},footer:{lastUpdated:"Sept 23, 2024",version:"1.0",feedbackText:"Send us a Feedback here",feedbackUrl:"/feedback"},children:e.jsx(p,{})}},a={args:{variant:"sidebar-only",pageTitle:"Services",pageDescription:"Manage and configure your services",breadcrumbs:[{label:"Home",href:"/",isActive:!1},{label:"Services",isActive:!0}],sideNav:{groups:[{title:"MAIN MENU",items:[{id:"1",label:"Home",icon:e.jsx(n,{}),active:!1},{id:"2",label:"Services",icon:e.jsx(n,{}),active:!0},{id:"3",label:"About Us",icon:e.jsx(n,{}),showIndicator:!0},{id:"4",label:"Portfolio",icon:e.jsx(n,{}),active:!1}]},{title:"SETTINGS",items:[{id:"5",label:"Profile",icon:e.jsx(n,{}),active:!1},{id:"6",label:"Preferences",icon:e.jsx(n,{}),active:!1}]}],user:{initials:"AS",name:"Ajay Soni",subtitle:"Employee ID"}},footer:{lastUpdated:"Sept 23, 2024",version:"1.0",feedbackText:"Send us a Feedback here",feedbackUrl:"/feedback"},children:e.jsx(p,{})}},o={args:{variant:"topbar-sidebar",pageTitle:"Settings",pageDescription:"Configure your application preferences and options",breadcrumbs:[{label:"Home",href:"/",isActive:!1},{label:"Settings",isActive:!0}],topHeader:{appName:"Product Name",menuItems:[{id:"1",label:"Help",icon:e.jsx(n,{}),active:!1},{id:"2",label:"Notifications",icon:e.jsx(n,{}),showIndicator:!0}],userInitials:"AS"},sideNav:{groups:[{items:[{id:"1",label:"Home",icon:e.jsx(n,{}),active:!1},{id:"2",label:"Dashboard",icon:e.jsx(n,{}),active:!1},{id:"3",label:"Settings",icon:e.jsx(n,{}),active:!0},{id:"4",label:"Reports",icon:e.jsx(n,{}),active:!1},{id:"5",label:"Profile",icon:e.jsx(n,{}),active:!1}]}],user:{initials:"AS",name:"Ajay Soni",subtitle:"Employee ID"}},footer:{lastUpdated:"Sept 23, 2024",version:"1.0",feedbackText:"Send us a Feedback here",feedbackUrl:"/feedback"},children:e.jsx(p,{})}},i={args:{variant:"topbar-only",pageTitle:"Simple Page",breadcrumbs:[{label:"Home",isActive:!1},{label:"Simple Page",isActive:!0}],topHeader:{appName:"My App",userInitials:"JD"},children:e.jsx("div",{style:{padding:"24px"},children:e.jsx("p",{children:"Minimal page layout with default footer."})})}},r={args:{variant:"sidebar-only",pageTitle:"Dashboard Grid",pageDescription:"Custom grid layout example",breadcrumbs:[{label:"Home",href:"/",isActive:!1},{label:"Dashboard",isActive:!0}],sideNav:{groups:[{items:[{id:"1",label:"Dashboard",icon:e.jsx(n,{}),active:!0},{id:"2",label:"Analytics",icon:e.jsx(n,{}),active:!1}]}],user:{initials:"AS",name:"Ajay Soni",subtitle:"Employee ID"}},children:e.jsxs("div",{style:{display:"grid",gridTemplateColumns:"repeat(auto-fit, minmax(300px, 1fr))",gap:"24px"},children:[e.jsxs("div",{style:{padding:"24px",backgroundColor:"white",borderRadius:"8px"},children:[e.jsx("h3",{style:{marginTop:0},children:"Card 1"}),e.jsx("p",{children:"Content for card 1"})]}),e.jsxs("div",{style:{padding:"24px",backgroundColor:"white",borderRadius:"8px"},children:[e.jsx("h3",{style:{marginTop:0},children:"Card 2"}),e.jsx("p",{children:"Content for card 2"})]}),e.jsxs("div",{style:{padding:"24px",backgroundColor:"white",borderRadius:"8px"},children:[e.jsx("h3",{style:{marginTop:0},children:"Card 3"}),e.jsx("p",{children:"Content for card 3"})]})]})}},s={args:{variant:"topbar-sidebar",pageTitle:"New Features Demo",pageDescription:"Test all the new interactive features",breadcrumbs:[{label:"Home",href:"/",isActive:!1},{label:"Features",isActive:!0}],topHeader:{appName:"Product Name",menuItems:[{id:"1",label:"Help",icon:e.jsx(n,{}),active:!1},{id:"2",label:"Notifications",icon:e.jsx(n,{}),showIndicator:!0}],userInitials:"AS",onAvatarClick:()=>alert("TopHeader Avatar clicked! 🎉")},sideNav:{groups:[{title:"MAIN MENU",items:[{id:"1",label:"Dashboard",icon:e.jsx(n,{}),active:!0},{id:"2",label:"Analytics",icon:e.jsx(n,{}),active:!1},{id:"3",label:"Reports",icon:e.jsx(n,{}),active:!1}]}],user:{initials:"AS",name:"Ajay Soni",subtitle:"Employee ID",onClick:()=>alert("User Profile clicked! 👤")},expandMode:"both",toggleButtonPosition:"top",toggleButtonOffset:24,toggleButtonSize:"large"},footer:{lastUpdated:"Sept 23, 2024",version:"1.0",feedbackText:"Send us a Feedback here",feedbackUrl:"#",onFeedbackClick:()=>alert("Feedback link clicked! 💬")},children:e.jsxs("div",{style:{padding:"24px",backgroundColor:"white",borderRadius:"8px"},children:[e.jsx("h3",{style:{marginTop:0},children:"🎯 Test the New Features:"}),e.jsxs("ul",{children:[e.jsxs("li",{children:[e.jsx("strong",{children:"Click the feedback link"})," in the footer"]}),e.jsxs("li",{children:[e.jsx("strong",{children:"Click the user avatar"})," in the top header"]}),e.jsxs("li",{children:[e.jsx("strong",{children:"Click the user profile"})," at the bottom of the sidebar"]}),e.jsxs("li",{children:[e.jsx("strong",{children:"Try the toggle button"})," on the right edge of sidebar"]}),e.jsxs("li",{children:[e.jsx("strong",{children:"Hover over the sidebar"})," to expand (if expandMode includes 'hover')"]})]}),e.jsx("h4",{children:"Current Settings:"}),e.jsxs("ul",{children:[e.jsxs("li",{children:["Expand Mode: ",e.jsx("code",{children:"both"})," (hover + button)"]}),e.jsxs("li",{children:["Toggle Button Position: ",e.jsx("code",{children:"top"})]}),e.jsxs("li",{children:["Toggle Button Offset: ",e.jsx("code",{children:"24px"})," (aligned with logo)"]}),e.jsxs("li",{children:["Toggle Button Size: ",e.jsx("code",{children:"large"})," (32px)"]})]}),e.jsx("p",{children:e.jsx("em",{children:"💡 Tip: Use Storybook Controls panel to change these settings!"})})]})}},l={args:{variant:"sidebar-only",pageTitle:"Button Expand Mode",pageDescription:"Sidebar expands only when clicking the toggle button",breadcrumbs:[{label:"Home",href:"/",isActive:!1},{label:"Button Mode",isActive:!0}],sideNav:{groups:[{items:[{id:"1",label:"Home",icon:e.jsx(n,{}),active:!0},{id:"2",label:"Settings",icon:e.jsx(n,{}),active:!1}]}],user:{initials:"AS",name:"Ajay Soni",subtitle:"Employee ID"},expandMode:"button",toggleButtonPosition:"top",toggleButtonOffset:100},children:e.jsxs("div",{style:{padding:"24px",backgroundColor:"white",borderRadius:"8px"},children:[e.jsx("h3",{children:"Button-Only Mode"}),e.jsx("p",{children:"The sidebar will NOT expand on hover. Click the toggle button to expand/collapse."})]})}},d={args:{variant:"sidebar-only",pageTitle:"Small Toggle Button",pageDescription:"Toggle button with small size (24px)",breadcrumbs:[{label:"Home",href:"/",isActive:!1},{label:"Small Button",isActive:!0}],sideNav:{groups:[{items:[{id:"1",label:"Home",icon:e.jsx(n,{}),active:!0},{id:"2",label:"Settings",icon:e.jsx(n,{}),active:!1}]}],user:{initials:"AS",name:"Ajay Soni",subtitle:"Employee ID"},expandMode:"both",toggleButtonPosition:"top",toggleButtonOffset:24,toggleButtonSize:"small"},children:e.jsxs("div",{style:{padding:"24px",backgroundColor:"white",borderRadius:"8px"},children:[e.jsx("h3",{children:"Small Toggle Button (24px)"}),e.jsx("p",{children:"The toggle button is smaller and more subtle. Icon size is 16px."})]})}},c={args:{variant:"sidebar-only",pageTitle:"Toggle Button Bottom",pageDescription:"Toggle button positioned at the bottom",breadcrumbs:[{label:"Home",href:"/",isActive:!1},{label:"Bottom Button",isActive:!0}],sideNav:{groups:[{items:[{id:"1",label:"Home",icon:e.jsx(n,{}),active:!0},{id:"2",label:"Settings",icon:e.jsx(n,{}),active:!1}]}],user:{initials:"AS",name:"Ajay Soni",subtitle:"Employee ID"},expandMode:"both",toggleButtonPosition:"bottom",toggleButtonOffset:100},children:e.jsxs("div",{style:{padding:"24px",backgroundColor:"white",borderRadius:"8px"},children:[e.jsx("h3",{children:"Bottom Toggle Button"}),e.jsx("p",{children:"The toggle button is positioned at the bottom of the sidebar."})]})}};var u,g,b,h,m;t.parameters={...t.parameters,docs:{...(u=t.parameters)==null?void 0:u.docs,source:{originalSource:`{
+        `}}},tags:["autodocs"]},c=()=>e.jsxs("div",{style:{padding:"24px",backgroundColor:"white",borderRadius:"8px",minHeight:"400px"},children:[e.jsx("h2",{style:{marginTop:0},children:"Main Content Area"}),e.jsx("p",{children:"This is where your page content goes. You can add any components here:"}),e.jsxs("ul",{children:[e.jsx("li",{children:"Cards and panels"}),e.jsx("li",{children:"Forms and inputs"}),e.jsx("li",{children:"Tables and data grids"}),e.jsx("li",{children:"Charts and visualizations"}),e.jsx("li",{children:"Any custom components"})]}),e.jsx("p",{children:"The content area automatically fills the remaining space between the header/navigation and footer."})]}),a={args:{variant:"topbar-only",pageTitle:"Dashboard",pageDescription:"Overview of your application metrics and data",breadcrumbs:[{label:"Home",href:"/",isActive:!1},{label:"Dashboard",isActive:!0}],topHeader:{appName:"Product Name",showLogo:!0,menuItems:[{id:"1",label:"Home",icon:e.jsx(n,{}),active:!0},{id:"2",label:"Reports",icon:e.jsx(n,{}),active:!1},{id:"3",label:"Settings",icon:e.jsx(n,{}),showIndicator:!0}],userInitials:"AS"},footer:{lastUpdated:"Sept 23, 2024",version:"1.0",feedbackText:"Send us a Feedback here",feedbackUrl:"/feedback"},children:e.jsx(c,{})}},t={args:{variant:"sidebar-only",pageTitle:"Services",pageDescription:"Manage and configure your services",breadcrumbs:[{label:"Home",href:"/",isActive:!1},{label:"Services",isActive:!0}],sideNav:{groups:[{title:"MAIN MENU",items:[{id:"1",label:"Home",icon:e.jsx(n,{}),active:!1},{id:"2",label:"Services",icon:e.jsx(n,{}),active:!0},{id:"3",label:"About Us",icon:e.jsx(n,{}),showIndicator:!0},{id:"4",label:"Portfolio",icon:e.jsx(n,{}),active:!1}]},{title:"SETTINGS",items:[{id:"5",label:"Profile",icon:e.jsx(n,{}),active:!1},{id:"6",label:"Preferences",icon:e.jsx(n,{}),active:!1}]}],user:{initials:"AS",name:"Ajay Soni",subtitle:"Employee ID"}},footer:{lastUpdated:"Sept 23, 2024",version:"1.0",feedbackText:"Send us a Feedback here",feedbackUrl:"/feedback"},children:e.jsx(c,{})}},o={args:{variant:"topbar-sidebar",pageTitle:"Settings",pageDescription:"Configure your application preferences and options",breadcrumbs:[{label:"Home",href:"/",isActive:!1},{label:"Settings",isActive:!0}],topHeader:{appName:"Product Name",showLogo:!0,menuItems:[{id:"1",label:"Help",icon:e.jsx(n,{}),active:!1},{id:"2",label:"Notifications",icon:e.jsx(n,{}),showIndicator:!0}],userInitials:"AS"},sideNav:{groups:[{items:[{id:"1",label:"Home",icon:e.jsx(n,{}),active:!1},{id:"2",label:"Dashboard",icon:e.jsx(n,{}),active:!1},{id:"3",label:"Settings",icon:e.jsx(n,{}),active:!0},{id:"4",label:"Reports",icon:e.jsx(n,{}),active:!1},{id:"5",label:"Profile",icon:e.jsx(n,{}),active:!1}]}],user:{initials:"AS",name:"Ajay Soni",subtitle:"Employee ID"}},footer:{lastUpdated:"Sept 23, 2024",version:"1.0",feedbackText:"Send us a Feedback here",feedbackUrl:"/feedback"},children:e.jsx(c,{})}},i={args:{variant:"topbar-only",pageTitle:"Simple Page",breadcrumbs:[{label:"Home",isActive:!1},{label:"Simple Page",isActive:!0}],topHeader:{appName:"My App",userInitials:"JD"},children:e.jsx("div",{style:{padding:"24px"},children:e.jsx("p",{children:"Minimal page layout with default footer."})})}},r={args:{variant:"sidebar-only",pageTitle:"Dashboard Grid",pageDescription:"Custom grid layout example",breadcrumbs:[{label:"Home",href:"/",isActive:!1},{label:"Dashboard",isActive:!0}],sideNav:{groups:[{items:[{id:"1",label:"Dashboard",icon:e.jsx(n,{}),active:!0},{id:"2",label:"Analytics",icon:e.jsx(n,{}),active:!1}]}],user:{initials:"AS",name:"Ajay Soni",subtitle:"Employee ID"},showLabelsWhenCollapsed:!0},children:e.jsxs("div",{style:{display:"grid",gridTemplateColumns:"repeat(auto-fit, minmax(300px, 1fr))",gap:"24px"},children:[e.jsxs("div",{style:{padding:"24px",backgroundColor:"white",borderRadius:"8px"},children:[e.jsx("h3",{style:{marginTop:0},children:"Card 1"}),e.jsx("p",{children:"Content for card 1"})]}),e.jsxs("div",{style:{padding:"24px",backgroundColor:"white",borderRadius:"8px"},children:[e.jsx("h3",{style:{marginTop:0},children:"Card 2"}),e.jsx("p",{children:"Content for card 2"})]}),e.jsxs("div",{style:{padding:"24px",backgroundColor:"white",borderRadius:"8px"},children:[e.jsx("h3",{style:{marginTop:0},children:"Card 3"}),e.jsx("p",{children:"Content for card 3"})]})]})}},s={args:{variant:"topbar-sidebar",pageTitle:"New Features Demo",pageDescription:"Test all the new interactive features",breadcrumbs:[{label:"Home",href:"/",isActive:!1},{label:"Features",isActive:!0}],topHeader:{appName:"Product Name",menuItems:[{id:"1",label:"Help",icon:e.jsx(n,{}),active:!1},{id:"2",label:"Notifications",icon:e.jsx(n,{}),showIndicator:!0}],userInitials:"AS",onAvatarClick:()=>alert("TopHeader Avatar clicked! 🎉")},sideNav:{groups:[{title:"MAIN MENU",items:[{id:"1",label:"Dashboard",icon:e.jsx(n,{}),active:!0},{id:"2",label:"Analytics",icon:e.jsx(n,{}),active:!1},{id:"3",label:"Reports",icon:e.jsx(n,{}),active:!1}]}],user:{initials:"AS",name:"Ajay Soni",subtitle:"Employee ID",onClick:()=>alert("User Profile clicked! 👤")},expandMode:"both",toggleButtonPosition:"top",toggleButtonOffset:24,toggleButtonSize:"large"},footer:{lastUpdated:"Sept 23, 2024",version:"1.0",feedbackText:"Send us a Feedback here",feedbackUrl:"#",onFeedbackClick:()=>alert("Feedback link clicked! 💬")},children:e.jsxs("div",{style:{padding:"24px",backgroundColor:"white",borderRadius:"8px"},children:[e.jsx("h3",{style:{marginTop:0},children:"🎯 Test the New Features:"}),e.jsxs("ul",{children:[e.jsxs("li",{children:[e.jsx("strong",{children:"Click the feedback link"})," in the footer"]}),e.jsxs("li",{children:[e.jsx("strong",{children:"Click the user avatar"})," in the top header"]}),e.jsxs("li",{children:[e.jsx("strong",{children:"Click the user profile"})," at the bottom of the sidebar"]}),e.jsxs("li",{children:[e.jsx("strong",{children:"Try the toggle button"})," on the right edge of sidebar"]}),e.jsxs("li",{children:[e.jsx("strong",{children:"Hover over the sidebar"})," to expand (if expandMode includes 'hover')"]})]}),e.jsx("h4",{children:"Current Settings:"}),e.jsxs("ul",{children:[e.jsxs("li",{children:["Expand Mode: ",e.jsx("code",{children:"both"})," (hover + button)"]}),e.jsxs("li",{children:["Toggle Button Position: ",e.jsx("code",{children:"top"})]}),e.jsxs("li",{children:["Toggle Button Offset: ",e.jsx("code",{children:"24px"})," (aligned with logo)"]}),e.jsxs("li",{children:["Toggle Button Size: ",e.jsx("code",{children:"large"})," (32px)"]})]}),e.jsx("p",{children:e.jsx("em",{children:"💡 Tip: Use Storybook Controls panel to change these settings!"})})]})}},l={args:{variant:"sidebar-only",pageTitle:"Button Expand Mode",pageDescription:"Sidebar expands only when clicking the toggle button",breadcrumbs:[{label:"Home",href:"/",isActive:!1},{label:"Button Mode",isActive:!0}],sideNav:{groups:[{items:[{id:"1",label:"Home",icon:e.jsx(n,{}),active:!0},{id:"2",label:"Settings",icon:e.jsx(n,{}),active:!1}]}],user:{initials:"AS",name:"Ajay Soni",subtitle:"Employee ID"},expandMode:"button",toggleButtonPosition:"top",toggleButtonOffset:24},children:e.jsxs("div",{style:{padding:"24px",backgroundColor:"white",borderRadius:"8px"},children:[e.jsx("h3",{children:"Button-Only Mode"}),e.jsx("p",{children:"The sidebar will NOT expand on hover. Click the toggle button to expand/collapse."})]})}},d={args:{variant:"sidebar-only",pageTitle:"Small Toggle Button",pageDescription:"Toggle button with small size (24px)",breadcrumbs:[{label:"Home",href:"/",isActive:!1},{label:"Small Button",isActive:!0}],sideNav:{groups:[{items:[{id:"1",label:"Home",icon:e.jsx(n,{}),active:!0},{id:"2",label:"Settings",icon:e.jsx(n,{}),active:!1}]}],user:{initials:"AS",name:"Ajay Soni",subtitle:"Employee ID"},expandMode:"both",toggleButtonPosition:"top",toggleButtonOffset:24,toggleButtonSize:"small"},children:e.jsxs("div",{style:{padding:"24px",backgroundColor:"white",borderRadius:"8px"},children:[e.jsx("h3",{children:"Small Toggle Button (24px)"}),e.jsx("p",{children:"The toggle button is smaller and more subtle. Icon size is 16px."})]})}};var p,u,g,b,h;a.parameters={...a.parameters,docs:{...(p=a.parameters)==null?void 0:p.docs,source:{originalSource:`{
   args: {
     variant: 'topbar-only',
     pageTitle: 'Dashboard',
@@ -186,7 +186,7 @@ When using **both navigations** (topbar-sidebar):
     },
     children: <SampleContent />
   }
-}`,...(b=(g=t.parameters)==null?void 0:g.docs)==null?void 0:b.source},description:{story:`Template with **dark top header only**. Includes brand logo, product name, menu items, and avatar.
+}`,...(g=(u=a.parameters)==null?void 0:u.docs)==null?void 0:g.source},description:{story:`Template with **dark top header only**. Includes brand logo, product name, menu items, and avatar.
 
 **Use this template for:**
 - Simple applications without side navigation
@@ -196,7 +196,7 @@ When using **both navigations** (topbar-sidebar):
 **Structure:**
 - Top Header: 78px height, dark mode, with logo
 - Content Area: Breadcrumbs + Page Header + Your Content
-- Footer: 40px height`,...(m=(h=t.parameters)==null?void 0:h.docs)==null?void 0:m.description}}};var v,x,f,y,S;a.parameters={...a.parameters,docs:{...(v=a.parameters)==null?void 0:v.docs,source:{originalSource:`{
+- Footer: 40px height`,...(h=(b=a.parameters)==null?void 0:b.docs)==null?void 0:h.description}}};var m,v,x,f,y;t.parameters={...t.parameters,docs:{...(m=t.parameters)==null?void 0:m.docs,source:{originalSource:`{
   args: {
     variant: 'sidebar-only',
     pageTitle: 'Services',
@@ -261,7 +261,7 @@ When using **both navigations** (topbar-sidebar):
     },
     children: <SampleContent />
   }
-}`,...(f=(x=a.parameters)==null?void 0:x.docs)==null?void 0:f.source},description:{story:`Template with **expanded side navigation only**. Shows brand logo in sidebar with navigation groups.
+}`,...(x=(v=t.parameters)==null?void 0:v.docs)==null?void 0:x.source},description:{story:`Template with **expanded side navigation only**. Shows brand logo in sidebar with navigation groups.
 
 **Use this template for:**
 - Navigation-heavy applications
@@ -271,7 +271,7 @@ When using **both navigations** (topbar-sidebar):
 **Structure:**
 - Side Navigation: 236px width, expanded, with logo
 - Content Area: Breadcrumbs + Page Header + Your Content
-- Footer: 40px height`,...(S=(y=a.parameters)==null?void 0:y.docs)==null?void 0:S.description}}};var T,A,j,I,C;o.parameters={...o.parameters,docs:{...(T=o.parameters)==null?void 0:T.docs,source:{originalSource:`{
+- Footer: 40px height`,...(y=(f=t.parameters)==null?void 0:f.docs)==null?void 0:y.description}}};var S,T,A,j,I;o.parameters={...o.parameters,docs:{...(S=o.parameters)==null?void 0:S.docs,source:{originalSource:`{
   args: {
     variant: 'topbar-sidebar',
     pageTitle: 'Settings',
@@ -286,7 +286,8 @@ When using **both navigations** (topbar-sidebar):
     }],
     topHeader: {
       appName: 'Product Name',
-      // NO logo in this variant!
+      showLogo: true,
+      // Show brand logo in top header
       menuItems: [{
         id: '1',
         label: 'Help',
@@ -344,7 +345,7 @@ When using **both navigations** (topbar-sidebar):
     },
     children: <SampleContent />
   }
-}`,...(j=(A=o.parameters)==null?void 0:A.docs)==null?void 0:j.source},description:{story:`Template with **both top bar and side navigation**.
+}`,...(A=(T=o.parameters)==null?void 0:T.docs)==null?void 0:A.source},description:{story:`Template with **both top bar and side navigation**.
 
 **IMPORTANT RULES:**
 - ✅ Top bar is **LIGHT mode** (no dark background)
@@ -361,7 +362,7 @@ When using **both navigations** (topbar-sidebar):
 - Top Header: 64px height, light mode, NO logo, only product name
 - Side Navigation: 60px width, collapsed, icons only
 - Content Area: Breadcrumbs + Page Header + Your Content
-- Footer: 40px height`,...(C=(I=o.parameters)==null?void 0:I.docs)==null?void 0:C.description}}};var P,k,B,w,N;i.parameters={...i.parameters,docs:{...(P=i.parameters)==null?void 0:P.docs,source:{originalSource:`{
+- Footer: 40px height`,...(I=(j=o.parameters)==null?void 0:j.docs)==null?void 0:I.description}}};var C,P,k,w,N;i.parameters={...i.parameters,docs:{...(C=i.parameters)==null?void 0:C.docs,source:{originalSource:`{
   args: {
     variant: 'topbar-only',
     pageTitle: 'Simple Page',
@@ -382,7 +383,7 @@ When using **both navigations** (topbar-sidebar):
         <p>Minimal page layout with default footer.</p>
       </div>
   }
-}`,...(B=(k=i.parameters)==null?void 0:k.docs)==null?void 0:B.source},description:{story:"Minimal example with just the required props and default footer.",...(N=(w=i.parameters)==null?void 0:w.docs)==null?void 0:N.description}}};var H,D,M,O,E;r.parameters={...r.parameters,docs:{...(H=r.parameters)==null?void 0:H.docs,source:{originalSource:`{
+}`,...(k=(P=i.parameters)==null?void 0:P.docs)==null?void 0:k.source},description:{story:"Minimal example with just the required props and default footer.",...(N=(w=i.parameters)==null?void 0:w.docs)==null?void 0:N.description}}};var H,D,B,M,E;r.parameters={...r.parameters,docs:{...(H=r.parameters)==null?void 0:H.docs,source:{originalSource:`{
   args: {
     variant: 'sidebar-only',
     pageTitle: 'Dashboard Grid',
@@ -413,7 +414,8 @@ When using **both navigations** (topbar-sidebar):
         initials: 'AS',
         name: 'Ajay Soni',
         subtitle: 'Employee ID'
-      }
+      },
+      showLabelsWhenCollapsed: true // Show labels in collapsed state
     },
     children: <div style={{
       display: 'grid',
@@ -452,7 +454,7 @@ When using **both navigations** (topbar-sidebar):
         </div>
       </div>
   }
-}`,...(M=(D=r.parameters)==null?void 0:D.docs)==null?void 0:M.source},description:{story:"Example with custom content layout using grid.",...(E=(O=r.parameters)==null?void 0:O.docs)==null?void 0:E.description}}};var U,L,R,F,z;s.parameters={...s.parameters,docs:{...(U=s.parameters)==null?void 0:U.docs,source:{originalSource:`{
+}`,...(B=(D=r.parameters)==null?void 0:D.docs)==null?void 0:B.source},description:{story:"Example with custom content layout using grid.",...(E=(M=r.parameters)==null?void 0:M.docs)==null?void 0:E.description}}};var L,O,U,R,F;s.parameters={...s.parameters,docs:{...(L=s.parameters)==null?void 0:L.docs,source:{originalSource:`{
   args: {
     variant: 'topbar-sidebar',
     pageTitle: 'New Features Demo',
@@ -549,14 +551,14 @@ When using **both navigations** (topbar-sidebar):
         <p><em>💡 Tip: Use Storybook Controls panel to change these settings!</em></p>
       </div>
   }
-}`,...(R=(L=s.parameters)==null?void 0:L.docs)==null?void 0:R.source},description:{story:`**NEW FEATURES DEMO** - Test all the new interactive features!
+}`,...(U=(O=s.parameters)==null?void 0:O.docs)==null?void 0:U.source},description:{story:`**NEW FEATURES DEMO** - Test all the new interactive features!
 
 **What's New:**
 1. Click handlers on feedback link, avatars, and user profiles
 2. SideNav expand modes: hover, button, or both
 3. Toggle button positioning (top/bottom with offset)
 4. Custom logo support with alignment and padding
-5. Flex-based layout (no fixed positioning)`,...(z=(F=s.parameters)==null?void 0:F.docs)==null?void 0:z.description}}};var G,Y,W,Z,q;l.parameters={...l.parameters,docs:{...(G=l.parameters)==null?void 0:G.docs,source:{originalSource:`{
+5. Flex-based layout (no fixed positioning)`,...(F=(R=s.parameters)==null?void 0:R.docs)==null?void 0:F.description}}};var z,G,Y,W,Z;l.parameters={...l.parameters,docs:{...(z=l.parameters)==null?void 0:z.docs,source:{originalSource:`{
   args: {
     variant: 'sidebar-only',
     pageTitle: 'Button Expand Mode',
@@ -591,7 +593,8 @@ When using **both navigations** (topbar-sidebar):
       expandMode: 'button',
       // Only button, no hover
       toggleButtonPosition: 'top',
-      toggleButtonOffset: 100
+      // Position at top
+      toggleButtonOffset: 24 // Aligned with brand logo center
     },
     children: <div style={{
       padding: '24px',
@@ -602,7 +605,7 @@ When using **both navigations** (topbar-sidebar):
         <p>The sidebar will NOT expand on hover. Click the toggle button to expand/collapse.</p>
       </div>
   }
-}`,...(W=(Y=l.parameters)==null?void 0:Y.docs)==null?void 0:W.source},description:{story:"**BUTTON-ONLY EXPAND MODE** - Sidebar expands only via toggle button",...(q=(Z=l.parameters)==null?void 0:Z.docs)==null?void 0:q.description}}};var J,V,_,K,X;d.parameters={...d.parameters,docs:{...(J=d.parameters)==null?void 0:J.docs,source:{originalSource:`{
+}`,...(Y=(G=l.parameters)==null?void 0:G.docs)==null?void 0:Y.source},description:{story:"**BUTTON-ONLY EXPAND MODE** - Sidebar expands only via toggle button",...(Z=(W=l.parameters)==null?void 0:W.docs)==null?void 0:Z.description}}};var q,J,V,_,K;d.parameters={...d.parameters,docs:{...(q=d.parameters)==null?void 0:q.docs,source:{originalSource:`{
   args: {
     variant: 'sidebar-only',
     pageTitle: 'Small Toggle Button',
@@ -648,50 +651,4 @@ When using **both navigations** (topbar-sidebar):
         <p>The toggle button is smaller and more subtle. Icon size is 16px.</p>
       </div>
   }
-}`,...(_=(V=d.parameters)==null?void 0:V.docs)==null?void 0:_.source},description:{story:"**SMALL TOGGLE BUTTON** - Smaller button size (24px)",...(X=(K=d.parameters)==null?void 0:K.docs)==null?void 0:X.description}}};var Q,$,ee,ne,te;c.parameters={...c.parameters,docs:{...(Q=c.parameters)==null?void 0:Q.docs,source:{originalSource:`{
-  args: {
-    variant: 'sidebar-only',
-    pageTitle: 'Toggle Button Bottom',
-    pageDescription: 'Toggle button positioned at the bottom',
-    breadcrumbs: [{
-      label: 'Home',
-      href: '/',
-      isActive: false
-    }, {
-      label: 'Bottom Button',
-      isActive: true
-    }],
-    sideNav: {
-      groups: [{
-        items: [{
-          id: '1',
-          label: 'Home',
-          icon: <IconPlaceholder />,
-          active: true
-        }, {
-          id: '2',
-          label: 'Settings',
-          icon: <IconPlaceholder />,
-          active: false
-        }]
-      }],
-      user: {
-        initials: 'AS',
-        name: 'Ajay Soni',
-        subtitle: 'Employee ID'
-      },
-      expandMode: 'both',
-      toggleButtonPosition: 'bottom',
-      // Button at bottom
-      toggleButtonOffset: 100 // 100px from bottom
-    },
-    children: <div style={{
-      padding: '24px',
-      backgroundColor: 'white',
-      borderRadius: '8px'
-    }}>
-        <h3>Bottom Toggle Button</h3>
-        <p>The toggle button is positioned at the bottom of the sidebar.</p>
-      </div>
-  }
-}`,...(ee=($=c.parameters)==null?void 0:$.docs)==null?void 0:ee.source},description:{story:"**TOGGLE BUTTON AT BOTTOM** - Button positioned at bottom of sidebar",...(te=(ne=c.parameters)==null?void 0:ne.docs)==null?void 0:te.description}}};const ve=["TopBarOnly","SideBarOnly","TopBarAndSideBar","Minimal","CustomContentLayout","InteractiveFeaturesDemo","ButtonExpandMode","SmallToggleButton","ToggleButtonBottom"];export{l as ButtonExpandMode,r as CustomContentLayout,s as InteractiveFeaturesDemo,i as Minimal,a as SideBarOnly,d as SmallToggleButton,c as ToggleButtonBottom,o as TopBarAndSideBar,t as TopBarOnly,ve as __namedExportsOrder,me as default};
+}`,...(V=(J=d.parameters)==null?void 0:J.docs)==null?void 0:V.source},description:{story:"**SMALL TOGGLE BUTTON** - Smaller button size (24px)",...(K=(_=d.parameters)==null?void 0:_.docs)==null?void 0:K.description}}};const pe=["TopBarOnly","SideBarOnly","TopBarAndSideBar","Minimal","CustomContentLayout","InteractiveFeaturesDemo","ButtonExpandMode","SmallToggleButton"];export{l as ButtonExpandMode,r as CustomContentLayout,s as InteractiveFeaturesDemo,i as Minimal,t as SideBarOnly,d as SmallToggleButton,o as TopBarAndSideBar,a as TopBarOnly,pe as __namedExportsOrder,ce as default};
